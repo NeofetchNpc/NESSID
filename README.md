@@ -63,6 +63,38 @@ import { ytbmp3downloader, ytbmp4downloader } from 'neastooapi';
 })();
 ```
 
+3. Instagram Downloader
+```js
+import { InstagramDL } from 'neastooapi';
+
+(async () => {
+    const instagramUrl = "https://www.instagram.com/p/example"; // Ganti dengan URL Instagram asli
+    const response = await InstagramDL(instagramUrl);
+
+    console.log("Response from Instagram Downloader:", response); // Menampilkan respons di log terminal
+})();
+```
+
+4. Spotify Downloader
+```js
+// Test
+```
+
+5. Twitter/X Downloader
+```js
+// Test
+```
+
+6. Google Drive Downloader
+```js
+// Test
+```
+
+7. Mega Downloader
+```js
+// Test
+```
+
 ---------
 
 🛑 Note !!!
