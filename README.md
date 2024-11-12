@@ -1,7 +1,9 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-# `Account information`
-> My goal in creating this GitHub account is to express my ideas about coding. Usually, this is a hobby. I often code Node.js, JavaScript, HTML, CSS, and so on!  
+# `information`
+> This module was created only to make it easier to use an api function as a function in the code
+> you can use it for free!!!
+> If there are bugs or problems, you can just submit issues on GitHub! We also accept video requests!!!   
 
 ---------
 
