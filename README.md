@@ -7,9 +7,9 @@
 
 ---------
 
-📍 How to use ???
+# `📍 How to use ???`
 
-📌 Ai </>
+`📌 Ai </>`
 
 1. ChatGPT
 ```js
@@ -33,6 +33,8 @@ import { blackBoxChat } from './index.js';
     console.log("Response from BlackBox:", response); // Menampilkan respons di log terminal
 })();
 ```
+
+---------
 
 🛑 Note !!!
 > This Module is Still Under Development!!! Just Wait for the Update!!! 
