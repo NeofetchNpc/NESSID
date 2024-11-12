@@ -38,11 +38,11 @@ import { blackBoxChat } from 'neastooapi';
 
 1. Tiktok Downloader
 ```js
-import { downloadTikTokVideo } from 'neastooapi';
+import { TiktokDL } from 'neastooapi';
 
 (async () => {
     const tiktokUrl = "https://www.tiktok.com/@example/video/123456789"; // Ganti dengan URL TikTok asli
-    const response = await downloadTikTokVideo(tiktokUrl);
+    const response = await TiktokDL(tiktokUrl);
 
     console.log("Response from TikTok Downloader:", response); // Menampilkan respons di log terminal
 })();
@@ -50,6 +50,7 @@ import { downloadTikTokVideo } from 'neastooapi';
 
 2. Youtube MP3/MP4 Downloader
 ```js
+// test
 ```
 
 ---------
