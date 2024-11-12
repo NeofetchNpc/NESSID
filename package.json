@@ -1,5 +1,5 @@
 {
-  "name": "NeastooAPI",
+  "name": "neastooapi",
   "version": "1.0.0",
   "description": "NeastooID Scraper Module NPMJS",
   "main": "index.js",
@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.3.2"
-  }
+  },
+  "devDependencies": {}
 }
