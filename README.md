@@ -7,7 +7,7 @@
 
 📍 How to use 
 ```js
-import { chatGPT } from 'neastoo-scraper';
+import { chatGPT } from 'neastooapi';
 
 (async () => {
     const prompt = "Hello, how are you today?";
