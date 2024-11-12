@@ -1,4 +1,4 @@
-import { chatGPT } from './plugins/ai.js';
+import { chatGPT } from './plugins/ChatGPT.js';
 
 // Ekspor semua fitur di sini
 export { chatGPT };
