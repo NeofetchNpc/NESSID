@@ -3,7 +3,7 @@
 # `information`
 > This module was created only to make it easier to use an api function as a function in the code
 > you can use it for free!!!
-> If there are bugs or problems, you can just submit issues on GitHub! We also accept video requests!!!   
+> If there are bugs or problems, you can just submit issues on GitHub! We also accept requests!!!   
 
 ---------
 
