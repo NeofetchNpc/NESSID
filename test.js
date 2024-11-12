@@ -1,7 +1,18 @@
-const { chatGPT } = require('./index');
+import fetch from 'node-fetch';
 
-(async () => {
-    const prompt = "Hi";
-    const response = await chatGPT(prompt);
-    console.log(response); // Seharusnya: "Hello! How can I assist you today?"
-})();
+export async function chatGPT(prompt) {
+    try {
+        const url = `https://api.neastooid.xyz/api/ai/chatgpt?prompt=${encodeURIComponent(prompt)}`;
+        const response = await fetch(url);
+        const data = await response.json();
+
+        if (data.success) {
+            return data.response;
+        } else {
+            throw new Error('Gagal mendapatkan respons dari API');
+        }
+    } catch (error) {
+        console.error('Error:', error.message);
+        return 'Error dalam mendapatkan data';
+    }
+}
