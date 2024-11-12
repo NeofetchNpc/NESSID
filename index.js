@@ -1,7 +1,5 @@
-const { chatGPT } = require('./plugins/ai');
+import { chatGPT } from './plugins/ai.js';
 
 // Ekspor semua fitur di sini
-module.exports = {
-    chatGPT,
-    // Tambahkan fitur lain di sini jika ada
-};
+export { chatGPT };
+// Tambahkan fitur lain di sini jika ada
