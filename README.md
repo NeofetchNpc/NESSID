@@ -77,7 +77,14 @@ import { InstagramDL } from 'neastooapi';
 
 4. Spotify Downloader
 ```js
-// Test
+import { SpotifyDL } from 'neastooapi';
+
+(async () => {
+    const spotifyUrl = "https://open.spotify.com/track/example"; // Ganti dengan URL Spotify asli
+    const response = await SpotifyDL(spotifyUrl);
+
+    console.log("Response from Spotify Downloader:", response); // Menampilkan respons di log terminal
+})();
 ```
 
 5. Twitter/X Downloader
