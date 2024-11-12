@@ -136,11 +136,15 @@ Pop Mie - Under Construction (Maybe?)
 ---------
 
 🛑 Note !!!
-> This Module is Still Under Development!!! Just Wait for the Update!!! 
+> This Module is Still Under Development!!! Just Wait for the Update!!!
 
-### Thanks To ( Source of Ideas )
+---------
+
+## Thanks To ( Source of Ideas )
 [![ShirokamiRyzen](https://github.com/ShirokamiRyzen.png?size=100)](https://github.com/ShirokamiRyzen)
 
-### Staff Contribute
+## Staff Contribute
 [![NeofetchNpc](https://github.com/NeofetchNpc.png?size=100)](https://github.com/NeofetchNpc)
 [![NeastooID](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)
+
+---------
