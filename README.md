@@ -34,6 +34,13 @@ import { blackBoxChat } from './index.js';
 })();
 ```
 
+`📌 Downloader </>`
+
+1. Tiktok Download
+```js
+// Test
+```
+
 ---------
 
 🛑 Note !!!
