@@ -101,7 +101,14 @@ import { twitterDownloader } from 'neastooapi';
 
 6. Google Drive Downloader
 ```js
-// Test
+import { googleDriveDownloader } from 'neastooapi';
+
+(async () => {
+    const googleDriveUrl = "https://drive.google.com/file/d/example"; // Ganti dengan URL Google Drive asli
+    const response = await googleDriveDownloader(googleDriveUrl);
+
+    console.log("Response from Google Drive Downloader:", response); // Menampilkan respons di log terminal
+})();
 ```
 
 7. Mega Downloader
