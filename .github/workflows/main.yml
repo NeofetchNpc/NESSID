@@ -3,9 +3,8 @@ name: Publish to npm
 on:
   push:
     branches:
-      - main  # Atur branch yang ingin memicu action ini
-  workflow_dispatch:  # Tambahkan ini agar bisa dijalankan secara manual
-
+      - kontol  # Atur branch yang ingin memicu action ini
+ 
 jobs:
   publish:
     runs-on: ubuntu-latest
