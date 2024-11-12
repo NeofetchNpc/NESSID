@@ -1,18 +1,9 @@
-import fetch from 'node-fetch';
+// test.js
+import { chatGPT } from 'neastooapi';
 
-export async function chatGPT(prompt) {
-    try {
-        const url = `https://api.neastooid.xyz/api/ai/chatgpt?prompt=${encodeURIComponent(prompt)}`;
-        const response = await fetch(url);
-        const data = await response.json();
+(async () => {
+    const prompt = "Hi";
+    const response = await chatGPT(prompt);
 
-        if (data.success) {
-            return data.response;
-        } else {
-            throw new Error('Gagal mendapatkan respons dari API');
-        }
-    } catch (error) {
-        console.error('Error:', error.message);
-        return 'Error dalam mendapatkan data';
-    }
-}
+    console.log("Response from chatGPT:", response); // Menampilkan respons ke log
+})();
