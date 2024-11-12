@@ -89,7 +89,14 @@ import { SpotifyDL } from 'neastooapi';
 
 5. Twitter/X Downloader
 ```js
-// Test
+import { twitterDownloader } from 'neastooapi';
+
+(async () => {
+    const twitterUrl = "https://twitter.com/username/status/example"; // Ganti dengan URL Twitter asli
+    const response = await twitterDownloader(twitterUrl);
+
+    console.log("Response from Twitter Downloader:", response); // Menampilkan respons di log terminal
+})();
 ```
 
 6. Google Drive Downloader
