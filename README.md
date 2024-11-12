@@ -24,7 +24,7 @@ import { chatGPT } from 'neastooapi';
 
 2. BlackboxAI
 ```js
-import { blackBoxChat } from './index.js';
+import { blackBoxChat } from 'neastooapi';
 
 (async () => {
     const chat = "Hi";
@@ -36,9 +36,20 @@ import { blackBoxChat } from './index.js';
 
 `📌 Downloader </>`
 
-1. Tiktok Download
+1. Tiktok Downloader
 ```js
-// Test
+import { downloadTikTokVideo } from 'neastooapi';
+
+(async () => {
+    const tiktokUrl = "https://www.tiktok.com/@example/video/123456789"; // Ganti dengan URL TikTok asli
+    const response = await downloadTikTokVideo(tiktokUrl);
+
+    console.log("Response from TikTok Downloader:", response); // Menampilkan respons di log terminal
+})();
+```
+
+2. Youtube MP3/MP4 Downloader
+```js
 ```
 
 ---------
