@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Atur branch yang ingin memicu action ini
+  workflow_dispatch:  # Tambahkan ini agar bisa dijalankan secara manual
 
 jobs:
   publish:
