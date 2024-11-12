@@ -113,7 +113,14 @@ import { googleDriveDownloader } from 'neastooapi';
 
 7. Mega Downloader
 ```js
-// Test
+import { megaDl } from 'neastooapi';
+
+(async () => {
+    const megaUrl = "https://mega.nz/file/example"; // Ganti dengan URL Mega asli
+    const response = await megaDl(megaUrl);
+
+    console.log("Response from Mega Downloader:", response); // Menampilkan respons di log terminal
+})();
 ```
 
 ---------
