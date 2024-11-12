@@ -123,6 +123,12 @@ import { megaDl } from 'neastooapi';
 })();
 ```
 
+`📌 Anime Tools </>`
+1. Random Waifu
+```js
+Pop Mie
+```
+
 ---------
 
 🛑 Note !!!
