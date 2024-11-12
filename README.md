@@ -50,7 +50,17 @@ import { TiktokDL } from 'neastooapi';
 
 2. Youtube MP3/MP4 Downloader
 ```js
-// test
+import { ytbmp3downloader, ytbmp4downloader } from 'neastooapi';
+
+(async () => {
+    const youtubeUrl = "https://www.youtube.com/watch?v=example"; // Ganti dengan URL YouTube asli
+
+    const mp3Response = await ytbmp3downloader(youtubeUrl);
+    console.log("Response from YouTube MP3 Downloader:", mp3Response);
+
+    const mp4Response = await ytbmp4downloader(youtubeUrl);
+    console.log("Response from YouTube MP4 Downloader:", mp4Response);
+})();
 ```
 
 ---------
