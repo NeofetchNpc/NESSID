@@ -34,6 +34,8 @@ import { blackBoxChat } from 'neastooapi';
 })();
 ```
 
+---------
+
 `📌 Downloader </>`
 
 1. Tiktok Downloader
@@ -122,6 +124,8 @@ import { megaDl } from 'neastooapi';
     console.log("Response from Mega Downloader:", response); // Menampilkan respons di log terminal
 })();
 ```
+
+---------
 
 `📌 Anime Tools </>`
 1. Random Waifu
