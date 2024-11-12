@@ -7,7 +7,11 @@
 
 ---------
 
-📍 How to use 
+📍 How to use ???
+
+📌 Ai </>
+
+1. ChatGPT
 ```js
 import { chatGPT } from 'neastooapi';
 
@@ -15,6 +19,18 @@ import { chatGPT } from 'neastooapi';
     const prompt = "Hello, how are you today?";
     const response = await chatGPT(prompt);
     console.log("AI Response:", response);
+})();
+```
+
+2. BlackboxAI
+```js
+import { blackBoxChat } from './index.js';
+
+(async () => {
+    const chat = "Hi";
+    const response = await blackBoxChat(chat);
+
+    console.log("Response from BlackBox:", response); // Menampilkan respons di log terminal
 })();
 ```
 
