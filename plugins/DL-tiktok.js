@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function downloadTikTokVideo(url) {
+export async function TiktokDL(url) {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/downloader/tiktokdl?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
