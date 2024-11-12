@@ -1,9 +1,8 @@
-// test.js
-import { chatGPT } from 'neastooapi';
+import { chatGPT } from 'neastooid';
 
 (async () => {
     const prompt = "Hi";
     const response = await chatGPT(prompt);
 
-    console.log("Response from chatGPT:", response); // Menampilkan respons ke log
+    console.log("Response from chatGPT:", response); // Menampilkan respons di log terminal
 })();
