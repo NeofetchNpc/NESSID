@@ -1,7 +1,7 @@
 {
   "name": "neastooapi",
-  "version": "0.0.2-beta.1.0",
-  "description": "NeastooID Scraper Module NPMJS",
+  "version": "0.0.3",
+  "description": "Scraper Module NPMJS",
   "main": "index.js",
   "type": "module",
   "scripts": {
