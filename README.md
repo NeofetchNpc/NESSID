@@ -130,7 +130,20 @@ import { megaDl } from 'neastooapi';
 `📌 Anime Tools </>`
 1. Random Waifu
 ```js
-Pop Mie - Under Construction (Maybe?) 
+import { fetchSfwAnime } from 'neastooapi';
+
+(async () => {
+    const result = await fetchSfwAnime();
+    console.log("SFW Anime Results:", result);
+})();
+```
+
+2. Nhentai Search
+```js
+```
+
+3. Char Anime Info
+```js
 ```
 
 ---------
