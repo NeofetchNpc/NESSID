@@ -1,7 +1,7 @@
 {
   "name": "neastooapi",
   "version": "0.0.3",
-  "description": "Scraper Module NPMJS",
+  "description": "Scraper Module NSTID",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -73,11 +73,16 @@
     "Web tools",
     "Development tools"
   ],
-  "author": "YusupKakuu",
+  "author": "NeofetchNpc",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeofetchNpc/NeastooAPI.git"
+  },
+  "homepage": "https://api.neastooid.xyz",
   "dependencies": {
     "node-fetch": "^3.3.2",
     "cheerio": "1.0.0-rc.12",
-    "axios": "1.7.7"
+    "axios": "^1.7.2"
   }
 }
