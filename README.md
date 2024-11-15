@@ -133,7 +133,7 @@ import { megaDl } from 'neastooapi';
 import { sfwAnime } from 'neastooapi';
 
 (async () => {
-    const result = await sfeAnime();
+    const result = await sfwAnime();
     console.log("SFW Anime Results:", result);
 })();
 ```
