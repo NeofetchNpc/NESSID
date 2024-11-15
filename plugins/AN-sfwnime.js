@@ -18,7 +18,7 @@ export async function sfwAnime() {
         // Cek apakah data memiliki properti url, artinya data valid
         if (data.url) {
             return {
-                results: [{ image_url: data.url }],
+                results: { image_url: data.url }, // Ganti array menjadi objek
                 total: 1,
                 error: null
             };
@@ -28,7 +28,7 @@ export async function sfwAnime() {
     } catch (error) {
         console.error('Error:', error.message);
         return {
-            results: [],
+            results: {},
             total: 0,
             error: 'Gagal mengambil data dari API SFW Anime'
         };
