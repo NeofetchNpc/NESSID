@@ -6,10 +6,18 @@ export async function nhentaiSearch(query) {
         const response = await fetch(apiUrl);
         const data = await response.json();
 
-        if (data.success) {
+        if (data && Array.isArray(data) && data.length > 0) {
+            // Format hasil sesuai dengan keinginan Anda, dengan objek 'results' yang berisi gambar
+            const results = data.map(item => ({
+                title: item.title,
+                imgSrc: item.imgSrc,
+                link: item.link
+            }));
+
             return {
-                results: data.results || [],
-                total: data.total || 0,
+                results: results,
+                total: results.length,
+                error: null
             };
         } else {
             throw new Error('Gagal mendapatkan hasil pencarian dari API NHentai');
