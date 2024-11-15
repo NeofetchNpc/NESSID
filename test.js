@@ -1,6 +1,7 @@
-import { sfwAnime } from './index.js';
+import { nhentaiSearch } from './index.js';
 
 (async () => {
-    const result = await sfwAnime();
-    console.log("SFW Anime Results:", result);
+    const query = "Blue Archive";
+    const response = await nhentaiSearch(query);
+    console.log("Nsearch Results:", response);
 })();
