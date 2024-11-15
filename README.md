@@ -151,6 +151,13 @@ import { nhentaiSearch } from 'neastooapi';
 
 3. Char Anime Info
 ```js
+import { charAnimeInfo } from 'neastooapi';
+
+(async () => {
+    const query = "Vermail";
+    const response = await charAnimeInfo(query);
+    console.log("Character Results:", response);
+})();
 ```
 
 ---------
