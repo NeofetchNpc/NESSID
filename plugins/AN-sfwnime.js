@@ -4,7 +4,15 @@ export async function sfwAnime() {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/anime/sfw-anime`;
         const response = await fetch(apiUrl);
+        
+        // Periksa status HTTP
+        if (!response.ok) {
+            throw new Error(`Failed to fetch, status: ${response.status}`);
+        }
+
         const data = await response.json();
+
+        console.log('API Response:', data); // Log respons untuk debugging
 
         if (data.success) {
             return {
