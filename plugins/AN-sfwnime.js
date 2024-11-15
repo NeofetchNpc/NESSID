@@ -13,14 +13,10 @@ export async function sfwAnime() {
         // Ambil data JSON dari API
         const data = await response.json();
 
-        console.log('API Response:', data); // Log respons API
-
         // Cek apakah data memiliki properti url, artinya data valid
         if (data.url) {
             return {
                 results: { image_url: data.url }, // Ganti array menjadi objek
-                total: 1,
-                error: null
             };
         } else {
             throw new Error('Data tidak valid atau tidak lengkap');
