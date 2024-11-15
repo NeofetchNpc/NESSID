@@ -4,8 +4,8 @@ export async function sfwAnime() {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/anime/sfw-anime`;
         const response = await fetch(apiUrl);
-        
-        // Pastikan status respons 200 OK
+
+        // Pastikan status HTTP 200
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -13,14 +13,14 @@ export async function sfwAnime() {
         // Ambil data JSON dari API
         const data = await response.json();
 
-        // Log respons API untuk memastikan struktur data
-        console.log('API Response:', data);
+        console.log('API Response:', data); // Log respons API
 
-        // Pastikan data memiliki properti yang diinginkan
-        if (data.success && Array.isArray(data.results)) {
+        // Cek apakah data memiliki properti url, artinya data valid
+        if (data.url) {
             return {
-                results: data.results || [],
-                total: data.total || 0,
+                results: [{ image_url: data.url }],
+                total: 1,
+                error: null
             };
         } else {
             throw new Error('Data tidak valid atau tidak lengkap');
@@ -30,7 +30,7 @@ export async function sfwAnime() {
         return {
             results: [],
             total: 0,
-            error: 'Gagal mengambil data dari API SFW Anime',
+            error: 'Gagal mengambil data dari API SFW Anime'
         };
     }
 }
