@@ -1,7 +1,7 @@
-import { nhentaiSearch } from './index.js';
+import { charAnimeInfo } from './index.js';
 
 (async () => {
-    const query = "Blue Archive";
-    const response = await nhentaiSearch(query);
-    console.log("Nsearch Results:", response);
+    const query = "Vermail";
+    const response = await charAnimeInfo(query);
+    console.log("Character Results:", response);
 })();
