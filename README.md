@@ -160,6 +160,12 @@ import { charAnimeInfo } from 'neastooapi';
 })();
 ```
 
+`📌 Tools Features </>`
+1. Search Google Image
+```js
+Pop Mie Ahhh - Working Process
+```
+
 ---------
 
 🛑 Note !!!
