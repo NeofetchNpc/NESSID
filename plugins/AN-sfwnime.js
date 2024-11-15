@@ -16,7 +16,7 @@ export async function sfwAnime() {
         // Cek apakah data memiliki properti url, artinya data valid
         if (data.url) {
             return {
-                results: { image_url: data.url }, // Ganti array menjadi objek
+                results: data.url  // Ganti array menjadi objek
             };
         } else {
             throw new Error('Data tidak valid atau tidak lengkap');
