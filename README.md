@@ -143,8 +143,8 @@ import { sfwAnime } from 'neastooapi';
 import { nhentaiSearch } from 'neastooapi';
 
 (async () => {
-    const search = "Blue Archive";
-    const response = await nhentaiSearch(search);
+    const query = "Blue Archive";
+    const response = await nhentaiSearch(query);
     console.log("Nsearch Results:", response);
 })();
 ```
