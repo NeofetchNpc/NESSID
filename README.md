@@ -140,6 +140,13 @@ import { sfwAnime } from 'neastooapi';
 
 2. Nhentai Search
 ```js
+import { nhentaiSearch } from 'neastooapi';
+
+(async () => {
+    const search = "Blue Archive";
+    const response = await nhentaiSearch(search);
+    console.log("Nsearch Results:", response);
+})();
 ```
 
 3. Char Anime Info
