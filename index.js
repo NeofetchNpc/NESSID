@@ -1,3 +1,4 @@
+import { gemini } from './plugins/Ai-gemini.js';
 import { chatGPT } from './plugins/Ai-ChatGPT.js';
 import { blackBoxChat } from './plugins/Ai-Blackbox.js';
 import { TiktokDL } from './plugins/DL-tiktok.js';
@@ -14,6 +15,7 @@ import { charAnimeInfo } from './plugins/AN-charinfo.js';
 
 // Ekspor semua fitur di sini
 export { 
+    gemini,
     chatGPT, 
     blackBoxChat, 
     TiktokDL, 
