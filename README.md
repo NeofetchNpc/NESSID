@@ -41,6 +41,17 @@ import { blackBoxChat } from 'neastooapi';
 })();
 ```
 
+3. Gemini
+```js
+import { gemini } from 'neastooapi';
+
+(async () => {
+    const prompt = "Hello, how are you today?";
+    const response = await chatGPT(prompt);
+    console.log("AI Response:", response);
+})();
+```
+
 ---------
 
 `📌 Downloader </>`
