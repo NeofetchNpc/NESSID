@@ -12,7 +12,7 @@ import { megaDl } from './plugins/DL-mega.js';
 import { nhentaiSearch } from './plugins/AN-nhentai.js';
 import { sfwAnime } from './plugins/AN-sfwnime.js';
 import { charAnimeInfo } from './plugins/AN-charinfo.js';
-import { gimage } from './plugins/Tools-gimage.js';
+import { gimage } from './plugins/Tl-gimage.js';
 
 // Ekspor semua fitur di sini
 export { 
