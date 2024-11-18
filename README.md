@@ -187,6 +187,7 @@ import { gimage } from 'neastooapi';
 (async () => {
     const query = "anime";
     const response = await gimage(query);
+    console.log(response);
 })();
 ```
 
