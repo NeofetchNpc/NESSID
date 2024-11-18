@@ -12,21 +12,23 @@ import { megaDl } from './plugins/DL-mega.js';
 import { nhentaiSearch } from './plugins/AN-nhentai.js';
 import { sfwAnime } from './plugins/AN-sfwnime.js';
 import { charAnimeInfo } from './plugins/AN-charinfo.js';
+import { gimage } from './plugins/Tools-gimage.js';
 
 // Ekspor semua fitur di sini
 export { 
     gemini,
-    chatGPT, 
-    blackBoxChat, 
-    TiktokDL, 
-    ytbmp3downloader, 
-    ytbmp4downloader, 
-    InstagramDL, 
-    SpotifyDL, 
-    twitterDownloader, 
-    googleDriveDownloader, 
-    megaDl, 
-    nhentaiSearch, 
-    sfwAnime, 
-    charAnimeInfo 
+    chatGPT,
+    blackBoxChat,
+    TiktokDL,
+    ytbmp3downloader,
+    ytbmp4downloader,
+    InstagramDL,
+    SpotifyDL,
+    twitterDownloader,
+    googleDriveDownloader,
+    megaDl,
+    nhentaiSearch,
+    sfwAnime,
+    charAnimeInfo,
+    gimage
 };
