@@ -6,14 +6,15 @@ import { charAnimeInfo } from './index.js';
     console.log("Character Results:", response);
 })();
 
-import { ytbmp3downloader, ytbmp4downloader } from './index.js';
+// MP3
+import { ytbmp3downloader } from './index.js';
 
-(async () => {
-    const youtubeUrl = "https://youtu.be/v37ECJeIjBw?si=xp0jsR6ejdT1hhKf"; // Ganti dengan URL YouTube asli
+ytbmp3downloader('https://youtu.be/v37ECJeIjBw?si=xp0jsR6ejdT1hhKf')
+    .then(data => console.log('MP3 Data:', data))
+    .catch(error => console.error('Error:', error));
+// MP4
+import { ytbmp4downloader } from './index.js';
 
-    const mp3Response = await ytbmp3downloader(youtubeUrl);
-    console.log("Response from YouTube MP3 Downloader:", mp3Response);
-
-    const mp4Response = await ytbmp4downloader(youtubeUrl);
-    console.log("Response from YouTube MP4 Downloader:", mp4Response);
-})();
+ytbmp4downloader('https://youtu.be/v37ECJeIjBw?si=xp0jsR6ejdT1hhKf')
+    .then(data => console.log('MP4 Data:', data))
+    .catch(error => console.error('Error:', error));
