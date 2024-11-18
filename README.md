@@ -37,7 +37,7 @@ import { blackBoxChat } from 'neastooapi';
     const chat = "Hi";
     const response = await blackBoxChat(chat);
 
-    console.log("Response from BlackBox:", response); // Menampilkan respons di log terminal
+    console.log("Response from BlackBox:", response); 
 })();
 ```
 
@@ -50,26 +50,27 @@ import { blackBoxChat } from 'neastooapi';
 import { TiktokDL } from 'neastooapi';
 
 (async () => {
-    const tiktokUrl = "https://www.tiktok.com/@example/video/123456789"; // Ganti dengan URL TikTok asli
+    const tiktokUrl = "https://www.tiktok.com/@example/video/123456789"; 
     const response = await TiktokDL(tiktokUrl);
 
-    console.log("Response from TikTok Downloader:", response); // Menampilkan respons di log terminal
+    console.log("Response from TikTok Downloader:", response); 
 })();
 ```
 
 2. Youtube MP3/MP4 Downloader
 ```js
-import { ytbmp3downloader, ytbmp4downloader } from 'neastooapi';
+// MP3
+import { ytbmp3downloader } from 'neastooapi';
 
-(async () => {
-    const youtubeUrl = "https://www.youtube.com/watch?v=example"; // Ganti dengan URL YouTube asli
+ytbmp3downloader('https://youtu.be/v37ECJeIjBw?si=xp0jsR6ejdT1hhKf')
+    .then(data => console.log('MP3 Data:', data))
+    .catch(error => console.error('Error:', error));
+// MP4
+import { ytbmp4downloader } from 'neastooapi';
 
-    const mp3Response = await ytbmp3downloader(youtubeUrl);
-    console.log("Response from YouTube MP3 Downloader:", mp3Response);
-
-    const mp4Response = await ytbmp4downloader(youtubeUrl);
-    console.log("Response from YouTube MP4 Downloader:", mp4Response);
-})();
+ytbmp4downloader('https://youtu.be/v37ECJeIjBw?si=xp0jsR6ejdT1hhKf')
+    .then(data => console.log('MP4 Data:', data))
+    .catch(error => console.error('Error:', error));
 ```
 
 3. Instagram Downloader
@@ -77,10 +78,10 @@ import { ytbmp3downloader, ytbmp4downloader } from 'neastooapi';
 import { InstagramDL } from 'neastooapi';
 
 (async () => {
-    const instagramUrl = "https://www.instagram.com/p/example"; // Ganti dengan URL Instagram asli
+    const instagramUrl = "https://www.instagram.com/p/example"; 
     const response = await InstagramDL(instagramUrl);
 
-    console.log("Response from Instagram Downloader:", response); // Menampilkan respons di log terminal
+    console.log("Response from Instagram Downloader:", response); 
 })();
 ```
 
@@ -89,10 +90,10 @@ import { InstagramDL } from 'neastooapi';
 import { SpotifyDL } from 'neastooapi';
 
 (async () => {
-    const spotifyUrl = "https://open.spotify.com/track/example"; // Ganti dengan URL Spotify asli
+    const spotifyUrl = "https://open.spotify.com/track/example"; 
     const response = await SpotifyDL(spotifyUrl);
 
-    console.log("Response from Spotify Downloader:", response); // Menampilkan respons di log terminal
+    console.log("Response from Spotify Downloader:", response); 
 })();
 ```
 
@@ -101,10 +102,10 @@ import { SpotifyDL } from 'neastooapi';
 import { twitterDownloader } from 'neastooapi';
 
 (async () => {
-    const twitterUrl = "https://twitter.com/username/status/example"; // Ganti dengan URL Twitter asli
+    const twitterUrl = "https://twitter.com/username/status/example"; 
     const response = await twitterDownloader(twitterUrl);
 
-    console.log("Response from Twitter Downloader:", response); // Menampilkan respons di log terminal
+    console.log("Response from Twitter Downloader:", response); 
 })();
 ```
 
@@ -113,10 +114,10 @@ import { twitterDownloader } from 'neastooapi';
 import { googleDriveDownloader } from 'neastooapi';
 
 (async () => {
-    const googleDriveUrl = "https://drive.google.com/file/d/example"; // Ganti dengan URL Google Drive asli
+    const googleDriveUrl = "https://drive.google.com/file/d/example"; 
     const response = await googleDriveDownloader(googleDriveUrl);
 
-    console.log("Response from Google Drive Downloader:", response); // Menampilkan respons di log terminal
+    console.log("Response from Google Drive Downloader:", response); 
 })();
 ```
 
@@ -125,10 +126,10 @@ import { googleDriveDownloader } from 'neastooapi';
 import { megaDl } from 'neastooapi';
 
 (async () => {
-    const megaUrl = "https://mega.nz/file/example"; // Ganti dengan URL Mega asli
+    const megaUrl = "https://mega.nz/file/example"; 
     const response = await megaDl(megaUrl);
 
-    console.log("Response from Mega Downloader:", response); // Menampilkan respons di log terminal
+    console.log("Response from Mega Downloader:", response); 
 })();
 ```
 
