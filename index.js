@@ -13,6 +13,7 @@ import { nhentaiSearch } from './plugins/AN-nhentai.js';
 import { sfwAnime } from './plugins/AN-sfwnime.js';
 import { charAnimeInfo } from './plugins/AN-charinfo.js';
 import { gimage } from './plugins/Tl-gimage.js';
+import { PinterestSearch } from './plugins/Tl-pin.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -30,5 +31,6 @@ export {
     nhentaiSearch,
     sfwAnime,
     charAnimeInfo,
-    gimage
+    gimage,
+    PinterestSearch
 };
