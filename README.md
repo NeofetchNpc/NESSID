@@ -47,7 +47,7 @@ import { gemini } from 'neastooapi';
 
 (async () => {
     const prompt = "Hello, how are you today?";
-    const response = await chatGPT(prompt);
+    const response = await gemini(prompt);
     console.log("AI Response:", response);
 })();
 ```
