@@ -185,9 +185,13 @@ import { charAnimeInfo } from 'neastooapi';
 import { gimage } from 'neastooapi';
 
 (async () => {
-    const query = "anime";
-    const response = await gimage(query);
-    console.log(response);
+    try {
+        const query = "anime";
+        const response = await gimage(query);
+        console.log(response);
+    } catch (error) {
+        console.error('Error:', error.message);
+    }
 })();
 ```
 
