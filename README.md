@@ -197,8 +197,17 @@ import { gimage } from 'neastooapi';
 
 2. Pinterest Search
 ```js
+import { PinterestSearch } from 'neastooapi';
 
-WIP - Work In Progres
+(async () => {
+    try {
+        const query = "anime";
+        const response = await PinterestSearch(query);
+        console.log(response);
+    } catch (error) {
+        console.error('Error:', error.message);
+    }
+})();
 ```
 
 ---------
