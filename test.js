@@ -1,7 +1,6 @@
-import { gemini } from './index.js';
+import { gimage } from './index.js';
 
 (async () => {
-    const prompt = "Hello, how are you today?";
-    const response = await gemini(prompt);
-    console.log("AI Response:", response);
+    const query = "anime";
+    const response = await gimage(query);
 })();
