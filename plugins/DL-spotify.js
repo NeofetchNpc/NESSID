@@ -7,12 +7,16 @@ export async function SpotifyDL(url) {
         const data = await response.json();
 
         if (data.success) {
+            const metadata = data.metadata || {};
+
             return {
-                audioUrl: data.audioUrl,
-                title: data.title || "No title available",
-                artist: data.artist || "Unknown artist",
-                album: data.album || "Unknown album",
-                duration: data.duration || "Unknown duration",
+                audioUrl: data.link,
+                title: metadata.title || "No title available",
+                artist: metadata.artists || "Unknown artist",
+                album: metadata.album || "Unknown album",
+                cover: metadata.cover || null,
+                duration: "Unknown duration", // Durasi tidak disertakan dalam respons JSON
+                releaseDate: metadata.releaseDate || "Unknown release date",
             };
         } else {
             throw new Error('Gagal mendapatkan audio dari API Spotify downloader');
@@ -24,7 +28,9 @@ export async function SpotifyDL(url) {
             title: null,
             artist: null,
             album: null,
+            cover: null,
             duration: null,
+            releaseDate: null,
             error: 'Error dalam mendapatkan data dari API Spotify downloader'
         };
     }
