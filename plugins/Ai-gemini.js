@@ -7,7 +7,7 @@ export async function gemini(prompt) {
         const data = await response.json();
 
         if (data.success) {
-            return data.response;
+            return data.answer; // Mengakses properti "answer" dari JSON
         } else {
             throw new Error('Gagal mendapatkan respons dari API');
         }
