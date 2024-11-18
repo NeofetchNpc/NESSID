@@ -182,7 +182,22 @@ import { charAnimeInfo } from 'neastooapi';
 `📌 Tools Features </>`
 1. Search Google Image
 ```js
-Pop Mie Ahhh - Working Process
+import { gimage } from 'neastooapi';
+
+(async () => {
+    const query = "anime"; 
+    try {
+        const images = await gimage(query);
+        
+        // Mengecek apakah ada hasil
+        if (images && images.length > 0) {
+            images.forEach((result) => {
+            });
+        } else {
+        }
+    } catch (error) {
+    }
+})();
 ```
 
 ---------
