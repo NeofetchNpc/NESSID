@@ -185,19 +185,15 @@ import { charAnimeInfo } from 'neastooapi';
 import { gimage } from 'neastooapi';
 
 (async () => {
-    const query = "anime"; 
-    try {
-        const images = await gimage(query);
-        
-        // Mengecek apakah ada hasil
-        if (images && images.length > 0) {
-            images.forEach((result) => {
-            });
-        } else {
-        }
-    } catch (error) {
-    }
+    const query = "anime";
+    const response = await gimage(query);
 })();
+```
+
+2. Pinterest Search
+```js
+
+WIP - Work In Progres
 ```
 
 ---------
