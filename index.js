@@ -1,3 +1,4 @@
+// Import fitur lainnya
 import { gemini } from './plugins/Ai-gemini.js';
 import { chatGPT } from './plugins/Ai-ChatGPT.js';
 import { blackBoxChat } from './plugins/Ai-Blackbox.js';
@@ -13,6 +14,7 @@ import { sfwAnime } from './plugins/AN-sfwnime.js';
 import { charAnimeInfo } from './plugins/AN-charinfo.js';
 import { gimage } from './plugins/Tl-gimage.js';
 import { PinterestSearch } from './plugins/Tl-pin.js';
+import { ytSearch } from './plugins/Tl-ytsearch.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -30,5 +32,6 @@ export {
     sfwAnime,
     charAnimeInfo,
     gimage,
-    PinterestSearch
+    PinterestSearch,
+    ytSearch
 };
