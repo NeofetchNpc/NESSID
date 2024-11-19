@@ -13,6 +13,15 @@
 </div>
 
 ---------
+# `📍 Changelogs`
+```js
+// Fix Downloader
+// Stabile Version
++ Add Yt Search
+- Mega Downloader
+```
+
+---------
 
 # `📍 How to use ???`
 
