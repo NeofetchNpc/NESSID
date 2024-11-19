@@ -1,6 +1,8 @@
-// MP3
-import { ytbmp3downloader } from './index.js';
+import { twitterDownloader } from './index.js';
 
-ytbmp3downloader('https://youtu.be/v37ECJeIjBw?si=xp0jsR6ejdT1hhKf')
-    .then(data => console.log('MP3 Data:', data))
-    .catch(error => console.error('Error:', error));
+(async () => {
+    const twitterUrl = "https://x.com/Luna_Stellaris/status/1858682555324621155?t=88S6IWLOs3-oNcbd6DunEQ&s=19"; 
+    const response = await twitterDownloader(twitterUrl);
+
+    console.log("Response from Twitter Downloader:", response); 
+})();
