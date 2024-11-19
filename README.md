@@ -198,6 +198,21 @@ import { PinterestSearch } from 'neastooapi';
 })();
 ```
 
+3. Youtube Search
+```js
+import { ytSearch } from 'neastooapi';
+
+(async () => {
+    try {
+        const query = "YUSUP909"; 
+        const response = await ytSearch(query); 
+        console.log(response); 
+    } catch (error) {
+        console.error('Error:', error.message); 
+    }
+})();
+```
+
 ---------
 
 🛑 Note !!!
