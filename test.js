@@ -1,8 +1,6 @@
-import { SpotifyDL } from './index.js';
+// MP3
+import { ytbmp3downloader } from 'neastooapi';
 
-(async () => {
-    const spotifyUrl = "https://open.spotify.com/track/0vPisMufQ5Ht1M5LaUlohP?si=YkBHmqoCSImsF7EKG_ntQw"; 
-    const response = await SpotifyDL(spotifyUrl);
-
-    console.log("Response from Spotify Downloader:", response); 
-})();
+ytbmp3downloader('https://youtu.be/v37ECJeIjBw?si=xp0jsR6ejdT1hhKf')
+    .then(data => console.log('MP3 Data:', data))
+    .catch(error => console.error('Error:', error));
