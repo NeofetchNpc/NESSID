@@ -1,11 +1,8 @@
-import { PinterestSearch } from './index.js';
+import { SpotifyDL } from './index.js';
 
 (async () => {
-    try {
-        const query = "anime";
-        const response = await PinterestSearch(query);
-        console.log(response);
-    } catch (error) {
-        console.error('Error:', error.message);
-    }
+    const spotifyUrl = "https://open.spotify.com/track/0vPisMufQ5Ht1M5LaUlohP?si=YkBHmqoCSImsF7EKG_ntQw"; 
+    const response = await SpotifyDL(spotifyUrl);
+
+    console.log("Response from Spotify Downloader:", response); 
 })();
