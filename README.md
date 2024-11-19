@@ -132,18 +132,6 @@ import { googleDriveDownloader } from 'neastooapi';
 })();
 ```
 
-7. Mega Downloader
-```js
-import { megaDl } from 'neastooapi';
-
-(async () => {
-    const megaUrl = "https://mega.nz/file/example"; 
-    const response = await megaDl(megaUrl);
-
-    console.log("Response from Mega Downloader:", response); 
-})();
-```
-
 ---------
 
 `📌 Anime Tools </>`
