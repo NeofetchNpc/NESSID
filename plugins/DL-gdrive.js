@@ -6,11 +6,11 @@ export async function googleDriveDownloader(url) {
         const response = await fetch(apiUrl);
         const data = await response.json();
 
-        if (data.success) {
+        if (data.downloadUrl) {
             return {
-                downloadLink: data.downloadLink,
-                fileName: data.fileName || "Unknown file name",
-                fileSize: data.fileSize || "Unknown file size",
+                downloadLink: data.downloadUrl,  // Ganti 'downloadLink' dengan 'downloadUrl' dari respons
+                fileName: data.fileName || "Unknown file name", // Gunakan 'fileName' dari respons atau placeholder
+                fileSize: data.fileSize || "Unknown file size", // Gunakan 'fileSize' dari respons atau placeholder
             };
         } else {
             throw new Error('Gagal mendapatkan link unduhan dari API Google Drive downloader');
