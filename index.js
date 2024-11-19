@@ -14,7 +14,7 @@ import { sfwAnime } from './plugins/AN-sfwnime.js';
 import { charAnimeInfo } from './plugins/AN-charinfo.js';
 import { gimage } from './plugins/Tl-gimage.js';
 import { PinterestSearch } from './plugins/Tl-pin.js';
-import { ytSearch } from './plugins/Tl-ytsearch.js';
+import { YouTubeSearch } from './plugins/Tl-ytsearch.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -33,5 +33,5 @@ export {
     charAnimeInfo,
     gimage,
     PinterestSearch,
-    ytSearch
+    YouTubeSearch
 };
