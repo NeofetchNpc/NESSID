@@ -17,6 +17,7 @@ import { PinterestSearch } from './plugins/Tl-pin.js';
 import { YouTubeSearch } from './plugins/Tl-ytsearch.js';
 import { mediafireDl } from './plugins/DL-mediafire.js';
 import { soundCloudDl } from './plugins/DL-soundcloud.js';
+import { pixivSearch } from './plugins/Tl-pixiv.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -37,5 +38,6 @@ export {
     PinterestSearch,
     YouTubeSearch,
     mediafireDl,
-    soundCloudDl
+    soundCloudDl,
+    pixivSearch
 };
