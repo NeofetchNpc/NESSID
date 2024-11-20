@@ -1,25 +1,14 @@
 import fetch from 'node-fetch';
 
-async function soundcloudDl(url) {
-  if (!url) {
-    throw new Error('URL SoundCloud harus disediakan.');
+export async function soundcloudDl(url) {
+  if (!url) throw new Error('URL is required.');
+
+  const endpoint = `https://api.neastooid.xyz/api/downloader/soundcloud?url=${encodeURIComponent(url)}`;
+  const response = await fetch(endpoint);
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch: ${response.status}`);
   }
 
-  const apiUrl = `https://api.neastooid.xyz/api/downloader/soundcloud?url=${encodeURIComponent(url)}`;
-
-  try {
-    const response = await fetch(apiUrl);
-
-    if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(`Gagal mengambil data dari API: ${errorText}`);
-    }
-
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    throw new Error(`Terjadi kesalahan: ${error.message}`);
-  }
+  return response.json();
 }
-
-export default soundcloudDl;
