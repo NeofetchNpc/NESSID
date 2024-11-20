@@ -195,7 +195,7 @@ import { allInOneDownload } from 'neastooapi';
 })();
 ```
 
-10. Bstasion/Bilibili Search
+10. Bstasion/Bilibili Downloader
 ```js
 import { bStasionDl } from 'neastooapi';
 
@@ -262,7 +262,7 @@ import { pixivSearch } from 'neastooapi';
 ```
 
 `📌 Tools Features </>`
-1. Search Google Image
+1. Google Image Search
 ```js
 import { gimage } from 'neastooapi';
 
@@ -307,7 +307,7 @@ import { YouTubeSearch } from 'neastooapi';
 })();
 ```
 
-4. Tinyurl
+4. Tinyurl ShortUrl
 ```js
 import { tinyUrl } from 'neastooapi';
 
@@ -336,5 +336,6 @@ const url = 'https://www.example.com/long-url-path';
 ## Staff Contribute
 [![NeofetchNpc](https://github.com/NeofetchNpc.png?size=100)](https://github.com/NeofetchNpc)
 [![NeastooID](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)
+[![INS](https://github.com/INsITdeveloper.png?size=100)](https://github.com/INsITdeveloper)
 
 ---------
