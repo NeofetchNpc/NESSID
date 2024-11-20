@@ -22,6 +22,11 @@
 + Soundcloud Downloader
 + BiliBili Downloader
 + Pivix Search
++ Tinuurl
+? Telegraph ( NST VERSION ) - WIP
+? Mega Downloader - WIP
+? Waifu Diffusion Ai - WIP
+? Text2Img Ai - WIP
 ```
 
 ---------
