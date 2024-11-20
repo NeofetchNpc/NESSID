@@ -18,6 +18,7 @@ import { YouTubeSearch } from './plugins/Tl-ytsearch.js';
 import { mediafireDl } from './plugins/DL-mediafire.js';
 import { soundCloudDl } from './plugins/DL-soundcloud.js';
 import { pixivSearch } from './plugins/Tl-pixiv.js';
+import { allInOneDownload } from './plugins/DL-aio.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -39,5 +40,6 @@ export {
     YouTubeSearch,
     mediafireDl,
     soundCloudDl,
-    pixivSearch
+    pixivSearch,
+    allInOneDownload
 };
