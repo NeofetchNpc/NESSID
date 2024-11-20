@@ -15,6 +15,7 @@ import { charAnimeInfo } from './plugins/AN-charinfo.js';
 import { gimage } from './plugins/Tl-gimage.js';
 import { PinterestSearch } from './plugins/Tl-pin.js';
 import { YouTubeSearch } from './plugins/Tl-ytsearch.js';
+import { mediafireDl } from './plugins/DL-mediafire.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -33,5 +34,6 @@ export {
     charAnimeInfo,
     gimage,
     PinterestSearch,
-    YouTubeSearch
+    YouTubeSearch,
+    mediafireDl
 };
