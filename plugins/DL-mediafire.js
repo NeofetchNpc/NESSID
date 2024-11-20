@@ -1,9 +1,9 @@
 import fetch from 'node-fetch';
 
-export async function mediafireDl(url) {
+export async function soundcloudDl(url) {
   if (!url) throw new Error('URL is required.');
 
-  const endpoint = `https://api.neastooid.xyz/api/downloader/mediafire?url=${encodeURIComponent(url)}`;
+  const endpoint = `https://api.neastooid.xyz/api/downloader/soundcloud?url=${encodeURIComponent(url)}`;
   const response = await fetch(endpoint);
 
   if (!response.ok) {
