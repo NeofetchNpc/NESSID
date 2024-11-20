@@ -19,6 +19,7 @@ import { mediafireDl } from './plugins/DL-mediafire.js';
 import { soundCloudDl } from './plugins/DL-soundcloud.js';
 import { pixivSearch } from './plugins/Tl-pixiv.js';
 import { allInOneDownload } from './plugins/DL-aio.js';
+import { bStasionDl } from './plugins/DL-bs.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -41,5 +42,6 @@ export {
     mediafireDl,
     soundCloudDl,
     pixivSearch,
-    allInOneDownload
+    allInOneDownload,
+    bStasionDl
 };
