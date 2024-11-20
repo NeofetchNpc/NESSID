@@ -143,7 +143,17 @@ import { googleDriveDownloader } from 'neastooapi';
 
 7. Mediafire Downloader
 ```js
-WIP - Work In Progres
+import { mediafireDl } from 'neastooapi';
+
+(async () => {
+  try {
+    const url = 'MediafireURL';
+    const data = await mediafireDl(url);
+    console.log(data);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+})();
 ```
 
 ---------
