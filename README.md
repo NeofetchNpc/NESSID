@@ -20,7 +20,7 @@
 + AIO ( ALL IN ONE ) Downloader
 + MediaFire Downloader
 + Soundcloud Downloader
-? BiliBili Downloader - WIP
++ BiliBili Downloader
 + Pivix Search
 ```
 
@@ -241,7 +241,7 @@ import { charAnimeInfo } from 'neastooapi';
 })();
 ```
 
-2. Pixiv Search
+4. Pixiv Search
 ```js
 import { pixivSearch } from 'neastooapi';
 
