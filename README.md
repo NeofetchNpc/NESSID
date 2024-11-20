@@ -302,6 +302,22 @@ import { YouTubeSearch } from 'neastooapi';
 })();
 ```
 
+4. Tinyurl
+```js
+import { tinyUrl } from 'neastooapi';
+
+const url = 'https://www.example.com/long-url-path';
+
+(async () => {
+  try {
+    const result = await tinyUrl(url);
+    console.log(result);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+})();
+```
+
 ---------
 
 🛑 Note !!!
