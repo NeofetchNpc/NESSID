@@ -4,7 +4,7 @@ const url = 'https://soundcloud.com/yusup909/dj-untungnya-hidup-harus-tetap?si=8
 
 (async () => {
   try {
-    const result = await soundcloudDl(url);
+    const result = await soundCloudDl(url);
     console.log(result);
   } catch (error) {
     console.error('Error:', error.message);
