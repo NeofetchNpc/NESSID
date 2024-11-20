@@ -34,7 +34,7 @@ import { chatGPT } from 'neastooapi';
 (async () => {
     const prompt = "Hello, how are you today?";
     const response = await chatGPT(prompt);
-    console.log("AI Response:", response);
+    console.log(response);
 })();
 ```
 
@@ -46,7 +46,7 @@ import { blackBoxChat } from 'neastooapi';
     const chat = "Hi";
     const response = await blackBoxChat(chat);
 
-    console.log("Response from BlackBox:", response); 
+    console.log(response); 
 })();
 ```
 
@@ -57,7 +57,7 @@ import { gemini } from 'neastooapi';
 (async () => {
     const prompt = "Hello, how are you today?";
     const response = await gemini(prompt);
-    console.log("AI Response:", response);
+    console.log(response);
 })();
 ```
 
@@ -73,7 +73,7 @@ import { TiktokDL } from 'neastooapi';
     const tiktokUrl = "https://www.tiktok.com/@example/video/123456789"; 
     const response = await TiktokDL(tiktokUrl);
 
-    console.log("Response from TikTok Downloader:", response); 
+    console.log(response); 
 })();
 ```
 
@@ -83,13 +83,13 @@ import { TiktokDL } from 'neastooapi';
 import { ytbmp3downloader } from 'neastooapi';
 
 ytbmp3downloader('https://youtu.be/v37ECJeIjBw?si=xp0jsR6ejdT1hhKf')
-    .then(data => console.log('MP3 Data:', data))
+    .then(data => console.log(data))
     .catch(error => console.error('Error:', error));
 // MP4
 import { ytbmp4downloader } from 'neastooapi';
 
 ytbmp4downloader('https://youtu.be/v37ECJeIjBw?si=xp0jsR6ejdT1hhKf')
-    .then(data => console.log('MP4 Data:', data))
+    .then(data => console.log(data))
     .catch(error => console.error('Error:', error));
 ```
 
@@ -101,7 +101,7 @@ import { InstagramDL } from 'neastooapi';
     const instagramUrl = "https://www.instagram.com/p/example"; 
     const response = await InstagramDL(instagramUrl);
 
-    console.log("Response from Instagram Downloader:", response); 
+    console.log(response); 
 })();
 ```
 
@@ -113,7 +113,7 @@ import { SpotifyDL } from 'neastooapi';
     const spotifyUrl = "https://open.spotify.com/track/example"; 
     const response = await SpotifyDL(spotifyUrl);
 
-    console.log("Response from Spotify Downloader:", response); 
+    console.log(response); 
 })();
 ```
 
@@ -125,7 +125,7 @@ import { twitterDownloader } from 'neastooapi';
     const twitterUrl = "https://twitter.com/username/status/example"; 
     const response = await twitterDownloader(twitterUrl);
 
-    console.log("Response from Twitter Downloader:", response); 
+    console.log(response); 
 })();
 ```
 
@@ -137,8 +137,13 @@ import { googleDriveDownloader } from 'neastooapi';
     const googleDriveUrl = "https://drive.google.com/file/d/example"; 
     const response = await googleDriveDownloader(googleDriveUrl);
 
-    console.log("Response from Google Drive Downloader:", response); 
+    console.log(response); 
 })();
+```
+
+7. Mediafire Downloader
+```js
+WIP - Work In Progres
 ```
 
 ---------
@@ -150,7 +155,7 @@ import { sfwAnime } from 'neastooapi';
 
 (async () => {
     const result = await sfwAnime();
-    console.log("SFW Anime Results:", result);
+    console.log(result);
 })();
 ```
 
@@ -161,7 +166,7 @@ import { nhentaiSearch } from 'neastooapi';
 (async () => {
     const query = "Blue Archive";
     const response = await nhentaiSearch(query);
-    console.log("Nsearch Results:", response);
+    console.log(response);
 })();
 ```
 
@@ -172,7 +177,7 @@ import { charAnimeInfo } from 'neastooapi';
 (async () => {
     const query = "Vermail";
     const response = await charAnimeInfo(query);
-    console.log("Character Results:", response);
+    console.log(response);
 })();
 ```
 
