@@ -15,9 +15,12 @@
 ---------
 # `📍 Changelogs`
 ```js
+// ( WIP ) Work In Progres
 // Stabile Version
++ AIO ( ALL IN ONE ) Downloader
 + MediaFire Downloader
 + Soundcloud Downloader
+? BiliBili Downloader - WIP
 + Pivix Search
 ```
 
@@ -165,6 +168,21 @@ const url = 'https://soundcloud.com/yusup909/example';
 (async () => {
   try {
     const result = await soundCloudDl(url);
+    console.log(result);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+})();
+```
+
+9. AIO Downloader
+```js
+import { allInOneDownload } from 'neastooapi';
+
+(async () => {
+  try {
+    const url = 'example';
+    const result = await allInOneDownload(url);
     console.log(result);
   } catch (error) {
     console.error('Error:', error.message);
