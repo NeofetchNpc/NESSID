@@ -17,7 +17,8 @@
 ```js
 // Stabile Version
 + MediaFire Downloader
-+ WIP - Soundcloud Downloader
++ Soundcloud Downloader
++ Pivix Search
 ```
 
 ---------
@@ -203,6 +204,21 @@ import { charAnimeInfo } from 'neastooapi';
     const query = "Vermail";
     const response = await charAnimeInfo(query);
     console.log(response);
+})();
+```
+
+2. Pixiv Search
+```js
+import { pixivSearch } from 'neastooapi';
+
+(async () => {
+  try {
+    const query = 'anime';
+    const results = await pixivSearch(query);
+    console.log(results);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
 })();
 ```
 
