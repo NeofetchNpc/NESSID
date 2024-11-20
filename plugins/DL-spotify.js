@@ -4,34 +4,25 @@ export async function SpotifyDL(url) {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/downloader/spotifydl?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
+
+        if (!response.ok) {
+            throw new Error(`HTTP Error: ${response.status}`);
+        }
+
         const data = await response.json();
 
+        // Langsung mengembalikan JSON dari API jika sukses
         if (data.success) {
-            const metadata = data.metadata || {};
-
-            return {
-                audioUrl: data.link,
-                title: metadata.title || "No title available",
-                artist: metadata.artists || "Unknown artist",
-                album: metadata.album || "Unknown album",
-                cover: metadata.cover || null,
-                duration: "Unknown duration", // Durasi tidak disertakan dalam respons JSON
-                releaseDate: metadata.releaseDate || "Unknown release date",
-            };
+            return data; // Respons JSON asli dari API
         } else {
-            throw new Error('Gagal mendapatkan audio dari API Spotify downloader');
+            throw new Error(data.message || 'Gagal mendapatkan data dari API Spotify downloader');
         }
     } catch (error) {
         console.error('Error:', error.message);
         return {
-            audioUrl: null,
-            title: null,
-            artist: null,
-            album: null,
-            cover: null,
-            duration: null,
-            releaseDate: null,
-            error: 'Error dalam mendapatkan data dari API Spotify downloader'
+            success: false,
+            message: 'Error dalam mendapatkan data dari API Spotify downloader',
+            error: error.message
         };
     }
 }
