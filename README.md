@@ -155,6 +155,12 @@ import { mediafireDl } from 'neastooapi';
 })();
 ```
 
+8. Soundcloud Downloader
+```js
+WIP - Work In Progres
+})();
+```
+
 ---------
 
 `📌 Anime Tools </>`
