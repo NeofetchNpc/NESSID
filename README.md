@@ -15,10 +15,9 @@
 ---------
 # `📍 Changelogs`
 ```js
-// Fix Downloader
 // Stabile Version
-+ Add Yt Search
-- Mega Downloader
++ MediaFire Downloader
++ WIP - Soundcloud Downloader
 ```
 
 ---------
