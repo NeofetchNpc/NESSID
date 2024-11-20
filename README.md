@@ -147,7 +147,7 @@ import { mediafireDl } from 'neastooapi';
 
 (async () => {
   try {
-    const url = 'MediafireURL';
+    const url = 'https://www.mediafire.com/file/example';
     const data = await mediafireDl(url);
     console.log(data);
   } catch (error) {
