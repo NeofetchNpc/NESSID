@@ -190,6 +190,22 @@ import { allInOneDownload } from 'neastooapi';
 })();
 ```
 
+10. Bstasion/Bilibili Search
+```js
+import { bStasionDl } from 'neastooapi';
+
+const url = 'https://bstation.example.com/video/xyz123';
+
+(async () => {
+  try {
+    const result = await bStasionDl(url);
+    console.log(result);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+})();
+```
+
 ---------
 
 `📌 Anime Tools </>`
