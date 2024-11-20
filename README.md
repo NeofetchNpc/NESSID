@@ -157,13 +157,13 @@ import { mediafireDl } from 'neastooapi';
 
 8. Soundcloud Downloader
 ```js
-import { soundcloudDl } from 'neastooapi';
+import { soundCloudDl } from 'neastooapi';
 
 const url = 'https://soundcloud.com/yusup909/example';
 
 (async () => {
   try {
-    const result = await soundcloudDl(url);
+    const result = await soundCloudDl(url);
     console.log(result);
   } catch (error) {
     console.error('Error:', error.message);
