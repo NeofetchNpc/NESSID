@@ -1,4 +1,4 @@
-import { gemini } from 'neastooapi';
+import { gemini } from './index.js';
 
 (async () => {
     const prompt = "Hello, how are you today?";
