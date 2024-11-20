@@ -16,6 +16,7 @@ import { gimage } from './plugins/Tl-gimage.js';
 import { PinterestSearch } from './plugins/Tl-pin.js';
 import { YouTubeSearch } from './plugins/Tl-ytsearch.js';
 import { mediafireDl } from './plugins/DL-mediafire.js';
+import { soundcloudDl } from './plugins/DL-soundcloud.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -35,5 +36,6 @@ export {
     gimage,
     PinterestSearch,
     YouTubeSearch,
-    mediafireDl
+    mediafireDl,
+    soundcloudDl
 };
