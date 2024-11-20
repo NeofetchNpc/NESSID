@@ -4,9 +4,9 @@ const url = 'https://soundcloud.com/yusup909/dj-untungnya-hidup-harus-tetap?si=8
 
 (async () => {
   try {
-    const result = await soundCloudDl(url);
-    console.log(result);
+    const result = await soundCloudDl(url); // Panggil fungsi dengan URL
+    console.log('Result:', result); // Tampilkan hasilnya
   } catch (error) {
-    console.error('Error:', error.message);
+    console.error('Error:', error.message); // Tangkap dan tampilkan error
   }
 })();
