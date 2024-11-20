@@ -13,6 +13,7 @@
 </div>
 
 ---------
+
 # `📍 Changelogs`
 ```js
 // ( WIP ) Work In Progres
@@ -214,6 +215,7 @@ const url = 'https://bstation.example.com/video/xyz123';
 ---------
 
 `📌 Anime Tools </>`
+
 1. Random Waifu
 ```js
 import { sfwAnime } from 'neastooapi';
@@ -261,7 +263,10 @@ import { pixivSearch } from 'neastooapi';
 })();
 ```
 
+---------
+
 `📌 Tools Features </>`
+
 1. Google Image Search
 ```js
 import { gimage } from 'neastooapi';
