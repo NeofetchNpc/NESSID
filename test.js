@@ -1,10 +1,11 @@
-import { mediafireDl } from './index.js';
+import soundcloudDl from './index.js';
+
+const url = 'https://soundcloud.com/yusup909/dj-untungnya-hidup-harus-tetap?si=85637c28650b4d8a848454900d74e441&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing';
 
 (async () => {
   try {
-    const url = 'https://www.mediafire.com/file/yrdb8o89nt9t0qc/1SoundAbangPilihygMana.mp3/file';
-    const data = await mediafireDl(url);
-    console.log(data);
+    const result = await soundcloudDl(url);
+    console.log(result);
   } catch (error) {
     console.error('Error:', error.message);
   }
