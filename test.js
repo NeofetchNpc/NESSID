@@ -1,11 +1,7 @@
-import { YouTubeSearch } from './index.js';
+import { gemini } from 'neastooapi';
 
 (async () => {
-    try {
-        const query = "YUSUP909"; 
-        const response = await YouTubeSearch(query); 
-        console.log(response); 
-    } catch (error) {
-        console.error('Error:', error.message); 
-    }
+    const prompt = "Hello, how are you today?";
+    const response = await gemini(prompt);
+    console.log(response);
 })();
