@@ -20,6 +20,7 @@ import { soundCloudDl } from './plugins/DL-soundcloud.js';
 import { pixivSearch } from './plugins/Tl-pixiv.js';
 import { allInOneDownload } from './plugins/DL-aio.js';
 import { bStasionDl } from './plugins/DL-bli.js';
+import { tinyUrl } from './plugins/Tl-tinyurl.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -43,5 +44,6 @@ export {
     soundCloudDl,
     pixivSearch,
     allInOneDownload,
-    bStasionDl
+    bStasionDl,
+    tinyUrl
 };
