@@ -4,17 +4,13 @@ export async function YouTubeSearch(query) {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/tools/yts?q=${encodeURIComponent(query)}`;
         const response = await fetch(apiUrl);
-        const data = await response.json();
 
-        if (data.videos && data.videos.length > 0) {
-            return {
-                success: true,
-                results: data.videos,
-                count: data.videos.length,
-            };
-        } else {
-            throw new Error('Gagal mendapatkan video dari API YouTube');
+        if (!response.ok) {
+            throw new Error(`HTTP Error: ${response.status}`);
         }
+
+        const data = await response.json();
+        return data;  // Mengembalikan JSON langsung tanpa modifikasi
     } catch (error) {
         console.error('Error:', error.message);
         return {
