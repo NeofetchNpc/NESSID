@@ -4,23 +4,17 @@ export async function googleDriveDownloader(url) {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/downloader/gdrive?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
-        const data = await response.json();
 
-        if (data.downloadUrl) {
-            return {
-                downloadLink: data.downloadUrl,  // Ganti 'downloadLink' dengan 'downloadUrl' dari respons
-                fileName: data.fileName || "Unknown file name", // Gunakan 'fileName' dari respons atau placeholder
-                fileSize: data.fileSize || "Unknown file size", // Gunakan 'fileSize' dari respons atau placeholder
-            };
-        } else {
-            throw new Error('Gagal mendapatkan link unduhan dari API Google Drive downloader');
+        if (!response.ok) {
+            throw new Error(`HTTP Error: ${response.status}`);
         }
+
+        const data = await response.json();
+        return data; // Mengembalikan JSON langsung tanpa modifikasi
     } catch (error) {
         console.error('Error:', error.message);
         return {
-            downloadLink: null,
-            fileName: null,
-            fileSize: null,
+            success: false,
             error: 'Error dalam mendapatkan data dari API Google Drive downloader'
         };
     }
