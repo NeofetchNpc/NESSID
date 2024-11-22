@@ -19,6 +19,7 @@
 // ( WIP ) Work In Progres
 // Stabile Version
 + Fixx Result Module
++ Facebook Downloader
 ? Waifu Diffusion Ai - WIP
 ? Text2Img Ai - WIP
 ```
