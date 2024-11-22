@@ -4,16 +4,13 @@ export async function blackBoxChat(chat) {
     try {
         const url = `https://api.neastooid.xyz/api/ai/blackbox?chat=${encodeURIComponent(chat)}`;
         const response = await fetch(url);
-        const data = await response.json();
 
-        if (data.response) {
-            return {
-                message: data.response,
-                additionalInfo: data.additionalInfo
-            };
-        } else {
-            throw new Error('Gagal mendapatkan respons dari API');
+        if (!response.ok) {
+            throw new Error(`HTTP Error: ${response.status}`);
         }
+
+        const data = await response.json();
+        return data;  // Mengembalikan JSON langsung tanpa modifikasi
     } catch (error) {
         console.error('Error:', error.message);
         return {
