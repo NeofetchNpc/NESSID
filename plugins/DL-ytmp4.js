@@ -4,21 +4,17 @@ export async function ytbmp4downloader(url) {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/downloader/ytmp4?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
-        const data = await response.json();
 
-        if (data.status === "tunnel") {
-            return {
-                videoUrl: data.url,
-                filename: data.filename || "Unknown filename"
-            };
-        } else {
-            throw new Error('Gagal mendapatkan video dari API');
+        if (!response.ok) {
+            throw new Error(`HTTP Error: ${response.status}`);
         }
+
+        const data = await response.json();
+        return data; // Mengembalikan JSON langsung tanpa modifikasi
     } catch (error) {
         console.error('Error:', error.message);
         return {
-            videoUrl: null,
-            filename: null,
+            success: false,
             error: 'Error dalam mendapatkan data dari API YouTube MP4 downloader'
         };
     }
