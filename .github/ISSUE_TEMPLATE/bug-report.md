@@ -8,7 +8,10 @@ assignees: NeofetchNpc
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+[ provide more details about the bug you found ]
 
 **Logs Error**
-hm
+[ put the log file here ]
+
+**More info**
+[ optional ]
