@@ -20,10 +20,19 @@ const url = 'https://www.bilibili.tv/id/video/4793260970610688?bstar_from=bstar-
   }
 })();*/
 
-import { chatGPT } from './index.js';
+/*import { chatGPT } from './index.js';
 
 (async () => {
     const prompt = "Hello, how are you today?";
     const response = await chatGPT(prompt);
     console.log(response);
+})();*/
+
+import { InstagramDL } from './index.js';
+
+(async () => {
+    const instagramUrl = "https://www.instagram.com/reel/DCoGdJITgJZ/?igsh=aGY3cWF5dXhjejBq"; 
+    const response = await InstagramDL(instagramUrl);
+
+    console.log(response); 
 })();
