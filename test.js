@@ -1,4 +1,4 @@
-import { SpotifyDL } from './index.js';
+/*import { SpotifyDL } from './index.js';
 
 (async () => {
     const spotifyUrl = "https://open.spotify.com/track/1D8kctV7MtI4rWZhbYeaF9?si=3Q2-VQvzSHSGhVso4zRvAg&utm_source=copy-link"; 
@@ -18,7 +18,7 @@ const url = 'https://www.bilibili.tv/id/video/4793260970610688?bstar_from=bstar-
   } catch (error) {
     console.error('Error:', error.message);
   }
-})();
+})();*/
 
 import { chatGPT } from './index.js';
 
