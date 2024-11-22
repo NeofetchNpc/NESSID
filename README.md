@@ -205,6 +205,21 @@ const url = 'https://bstation.example.com/video/xyz123';
 })();
 ```
 
+11. Facebook Downloader
+```js
+import { facebookDl } from 'neastooapi';
+
+(async () => {
+  try {
+    const url = 'https://www.facebook.com/share/p/example';
+    const data = await facebookDl(url);
+    console.log(data);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+})();
+```
+
 ---------
 
 `📌 Anime Tools </>`
