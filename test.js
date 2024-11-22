@@ -19,3 +19,11 @@ const url = 'https://www.bilibili.tv/id/video/4793260970610688?bstar_from=bstar-
     console.error('Error:', error.message);
   }
 })();
+
+import { chatGPT } from './index.js';
+
+(async () => {
+    const prompt = "Hello, how are you today?";
+    const response = await chatGPT(prompt);
+    console.log(response);
+})();
