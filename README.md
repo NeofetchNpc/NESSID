@@ -18,14 +18,7 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ AIO ( ALL IN ONE ) Downloader
-+ MediaFire Downloader
-+ Soundcloud Downloader
-+ BiliBili Downloader
-+ Pivix Search
-+ Tinyurl
-? Telegraph ( NST VERSION ) - WIP
-? Mega Downloader - WIP
++ Fixx Result Module
 ? Waifu Diffusion Ai - WIP
 ? Text2Img Ai - WIP
 ```
