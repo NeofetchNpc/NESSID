@@ -21,6 +21,7 @@ import { pixivSearch } from './plugins/Tl-pixiv.js';
 import { allInOneDownload } from './plugins/DL-aio.js';
 import { bStasionDl } from './plugins/DL-bli.js';
 import { tinyUrl } from './plugins/Tl-tinyurl.js';
+import { facebookDl } from './plugins/DL-facebook.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -45,5 +46,6 @@ export {
     pixivSearch,
     allInOneDownload,
     bStasionDl,
-    tinyUrl
+    tinyUrl,
+    facebookDl
 };
