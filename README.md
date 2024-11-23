@@ -21,7 +21,7 @@
 
 ---------
 
-# `📍 Changelogs`
+# `📍Changelogs`
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
@@ -33,7 +33,7 @@
 
 ---------
 
-# `📍 Documentation Moved Below`
+# `📍Documentation Moved Below`
 - [ID DOCS](https://github.com/NeofetchNpc/NeastooAPI/wiki/Dokumentasi-%E2%80%90-ID)
 - [EN DOCS](https://github.com/NeofetchNpc/NeastooAPI/wiki/Documentation-%E2%80%90-EN)
 
