@@ -1,7 +1,7 @@
-import { sfwWaifuV2 } from './index.js';
+import { sfwxassV1 } from './index.js';
 
 (async () => {
-    const result = await sfwAnime();
+    const result = await sfwxassV1();
     console.log(result);
 })();
 
