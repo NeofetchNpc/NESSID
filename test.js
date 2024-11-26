@@ -1,7 +1,7 @@
-import { sfwxassV1 } from './index.js';
+import { sfwLoliconV3 } from './index.js';
 
 (async () => {
-    const result = await sfwxassV1();
+    const result = await sfwLoliconV3();
     console.log(result);
 })();
 
