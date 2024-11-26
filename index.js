@@ -26,6 +26,7 @@ import { sfwWaifuV2 } from './plugins/SFW-waifu.js';
 import { sfwXwaifuV2 } from './plugins/SFW-xwaifu.js';
 import { sfwXnekoV2 } from './plugins/SFW-xneko.js';
 import { sfwNekoV2 } from './plugins/SFW-neko.js';
+import { sfwXmilfV1 } from './plugins/SFW-xmilf.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -55,5 +56,6 @@ export {
     sfwWaifuV2,
     sfwXwaifuV2,
     sfwXnekoV2,
-    sfwNekoV2
+    sfwNekoV2,
+    sfwXmilfV1
 };
