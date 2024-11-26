@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function sfwAnime() {
+export async function sfwWaifuV2() {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/anime/waifuv2`;
         const response = await fetch(apiUrl);
