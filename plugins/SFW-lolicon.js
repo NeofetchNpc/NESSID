@@ -9,8 +9,18 @@ export async function sfwLoliconV3() {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        // Langsung kembalikan JSON respons dari API
-        return await response.json();
+        const data = await response.json();
+        
+        // Memastikan bahwa urls adalah objek yang memiliki properti 'original'
+        data.data.forEach(item => {
+            if (item.urls && item.urls.original) {
+                item.urls = item.urls.original; // Ambil URL asli
+            } else {
+                item.urls = null; // Atau null jika tidak ada URL
+            }
+        });
+
+        return data;
     } catch (error) {
         console.error('Error:', error.message);
         return { error: error.message || 'Gagal mengambil data dari API SFW Anime' };
