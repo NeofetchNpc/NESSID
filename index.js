@@ -30,6 +30,7 @@ import { sfwXmilfV1 } from './plugins/SFW-xmilf.js';
 import { sfwMeguminV2 } from './plugins/SFW-megumin.js';
 import { sfwMaidV1 } from './plugins/SFW-maid.js';
 import { sfwLoliconV3 } from './plugins/SFW-lolicon.js';
+import { sfwEroV1 } from './plugins/SFW-ero.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -63,5 +64,6 @@ export {
     sfwXmilfV1,
     sfwMeguminV2,
     sfwMaidV1,
-    sfwLoliconV3
+    sfwLoliconV3,
+    sfwEroV1
 };
