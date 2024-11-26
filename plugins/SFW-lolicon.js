@@ -13,14 +13,10 @@ export async function sfwLoliconV3() {
         // Ambil data JSON dari API dan kembalikan langsung
         const data = await response.json();
 
-        return {
-            results: data,  // Kembalikan seluruh data JSON dari API
-            error: null  // Tidak ada error
-        };
+        return data;  // Kembalikan data JSON langsung tanpa membungkusnya
     } catch (error) {
         console.error('Error:', error.message);
         return {
-            results: {},
             error: error.message || 'Gagal mengambil data dari API SFW Anime'
         };
     }
