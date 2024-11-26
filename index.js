@@ -22,6 +22,7 @@ import { allInOneDownload } from './plugins/DL-aio.js';
 import { bStasionDl } from './plugins/DL-bli.js';
 import { tinyUrl } from './plugins/Tl-tinyurl.js';
 import { facebookDl } from './plugins/DL-facebook.js';
+import { sfwWaifuV2 } from './plugins/SFW-waifu.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -47,5 +48,6 @@ export {
     allInOneDownload,
     bStasionDl,
     tinyUrl,
-    facebookDl
+    facebookDl,
+    sfwWaifuV2
 };
