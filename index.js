@@ -33,6 +33,7 @@ import { sfwLoliconV3 } from './plugins/SFW-lolicon.js';
 import { sfwEroV1 } from './plugins/SFW-ero.js';
 import { sfwEcchiV1 } from './plugins/SFW-ecchi.js';
 import { sfwAwooV2 } from './plugins/SFW-awoo.js';
+import { sfwxassV1 } from './plugins/SFW-xass.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -69,5 +70,6 @@ export {
     sfwLoliconV3,
     sfwEroV1,
     sfwEcchiV1,
-    sfwAwooV2
+    sfwAwooV2,
+    sfwxassV1
 };
