@@ -10,10 +10,10 @@ export async function sfwLoliconV3() {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        // Ambil data JSON dari API dan kembalikan langsung
+        // Ambil seluruh data JSON dari API dan kembalikan langsung
         const data = await response.json();
 
-        return data;  // Kembalikan data JSON langsung tanpa membungkusnya
+        return data; // Kembalikan seluruh JSON respons
     } catch (error) {
         console.error('Error:', error.message);
         return {
