@@ -25,6 +25,7 @@ import { facebookDl } from './plugins/DL-facebook.js';
 import { sfwWaifuV2 } from './plugins/SFW-waifu.js';
 import { sfwXwaifuV2 } from './plugins/SFW-xwaifu.js';
 import { sfwXnekoV2 } from './plugins/SFW-xneko.js';
+import { sfwNekoV2 } from './plugins/SFW-neko.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -53,5 +54,6 @@ export {
     facebookDl,
     sfwWaifuV2,
     sfwXwaifuV2,
-    sfwXnekoV2
+    sfwXnekoV2,
+    sfwNekoV2
 };
