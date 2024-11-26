@@ -10,23 +10,18 @@ export async function sfwLoliconV3() {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        // Ambil data JSON dari API
+        // Ambil data JSON dari API dan kembalikan langsung
         const data = await response.json();
 
-        // Cek apakah data memiliki properti url, artinya data valid
-        if (data.url) {
-            return {
-                results: data.url  // Ganti array menjadi objek
-            };
-        } else {
-            throw new Error('Data tidak valid atau tidak lengkap');
-        }
+        return {
+            results: data,  // Kembalikan seluruh data JSON dari API
+            error: null  // Tidak ada error
+        };
     } catch (error) {
         console.error('Error:', error.message);
         return {
             results: {},
-            total: 0,
-            error: 'Gagal mengambil data dari API SFW Anime'
+            error: error.message || 'Gagal mengambil data dari API SFW Anime'
         };
     }
 }
