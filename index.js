@@ -23,7 +23,7 @@ import { bStasionDl } from './plugins/DL-bli.js';
 import { tinyUrl } from './plugins/Tl-tinyurl.js';
 import { facebookDl } from './plugins/DL-facebook.js';
 import { sfwWaifuV2 } from './plugins/SFW-waifu.js';
-import { sfwXnekoV2 } from './plugins/SWF-xneko.js';
+import { sfwXnekoV2 } from './plugins/SFW-xneko.js';
 
 // Ekspor semua fitur di sini
 export { 
