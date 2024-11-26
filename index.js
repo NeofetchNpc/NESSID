@@ -29,6 +29,7 @@ import { sfwNekoV2 } from './plugins/SFW-neko.js';
 import { sfwXmilfV1 } from './plugins/SFW-xmilf.js';
 import { sfwMeguminV2 } from './plugins/SFW-megumin.js';
 import { sfwMaidV1 } from './plugins/SFW-maid.js';
+import { sfwLoliconV3 } from './plugins/SFW-lolicon.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -61,5 +62,6 @@ export {
     sfwNekoV2,
     sfwXmilfV1,
     sfwMeguminV2,
-    sfwMaidV1
+    sfwMaidV1,
+    sfwLoliconV3
 };
