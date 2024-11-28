@@ -1,6 +1,6 @@
 {
   "name": "neastooapi",
-  "version": "0.1.15-1",
+  "version": "1.0.0",
   "description": "Scraper Module NSTID",
   "main": "index.js",
   "author": "NeofetchNpc",
