@@ -34,6 +34,7 @@ import { sfwEroV1 } from './plugins/SFW-ero.js';
 import { sfwEcchiV1 } from './plugins/SFW-ecchi.js';
 import { sfwAwooV2 } from './plugins/SFW-awoo.js';
 import { sfwxassV1 } from './plugins/SFW-xass.js';
+import { sfwCosplayerV3 } from './plugins/SFW-cosplayer.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -71,5 +72,6 @@ export {
     sfwEroV1,
     sfwEcchiV1,
     sfwAwooV2,
-    sfwxassV1
+    sfwxassV1,
+    sfwCosplayerV3
 };
