@@ -25,10 +25,8 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-? Random Cosplayer - ( WIP )
-+ Random Lolicon
-+ SFW Collection
-# Function Adjustment
++ Random Cosplayer
+# Adjustment Version
 ```
 
 ---------
