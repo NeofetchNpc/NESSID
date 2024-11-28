@@ -27,6 +27,9 @@
 // Stabile Version
 + Random Cosplayer
 + Blue Archive Maker
+? Maker Collection - WIP
+? Ai Voice/Img Collection - WIP
+? Anime Stream Collection - WIP
 # Adjustment Version
 ```
 
