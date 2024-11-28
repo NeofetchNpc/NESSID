@@ -34,24 +34,18 @@ export async function baLogo(text) {
             throw new Error('URL tidak ditemukan dalam respons upload');
         }
 
-        // Ubah URL menjadi format CDN
-        const cdnUrl = uploadResult.url.replace(
-            /^https:\/\/raw\.githubusercontent\.com\/NeofetchNpc\/ArchiveTMP\/main\//,
-            'https://cdn.neastooid.xyz/'
-        );
-
         // Kembalikan hasil sebagai objek
         return {
             success: true,
             results: {
-                cdnUrl
+                url: uploadResult.url // URL raw GitHub dari respons API upload
             }
         };
     } catch (error) {
         console.error('Error:', error.message);
         return {
             success: false,
-            error: 'Gagal membuat logo dengan ba-logo atau mengunggah ke CDN'
+            error: 'Gagal membuat logo dengan ba-logo atau mengunggah ke GitHub'
         };
     }
 }
