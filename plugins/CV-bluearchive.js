@@ -2,11 +2,6 @@ import baLogoGenerator from 'ba-logo';
 import fetch from 'node-fetch';
 import { createReadStream } from 'fs';
 
-/**
- * Fungsi untuk membuat logo dengan ba-logo dan mengunggah ke CDN
- * @param {string} text - Teks untuk logo
- * @returns {Promise<object>} - URL CDN dari logo atau error
- */
 export async function baLogo(text) {
     try {
         // Generate logo menggunakan 'ba-logo' dengan teks yang diberikan
