@@ -1,4 +1,5 @@
 // Import fitur lainnya
+import { baLogo } from './plugins/CV-bluearchive.js';
 import { gemini } from './plugins/Ai-gemini.js';
 import { chatGPT } from './plugins/Ai-ChatGPT.js';
 import { blackBoxChat } from './plugins/Ai-Blackbox.js';
@@ -38,6 +39,7 @@ import { sfwCosplayerV3 } from './plugins/SFW-cosplayer.js';
 
 // Ekspor semua fitur di sini
 export { 
+    baLogo,
     gemini,
     chatGPT,
     blackBoxChat,
