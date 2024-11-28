@@ -13,10 +13,12 @@ export async function sfwCosplayerV3() {
         // Ambil data JSON dari API
         const data = await response.json();
 
-        // Cek apakah data memiliki properti url, artinya data valid
-        if (data.url) {
+        // Cek apakah data memiliki properti data (sesuai dengan respons API Anda)
+        if (data.data) {
             return {
-                results: data.url  // Ganti array menjadi objek
+                results: {
+                    url: data.data // Menyimpan URL gambar dalam objek
+                }
             };
         } else {
             throw new Error('Data tidak valid atau tidak lengkap');
@@ -26,7 +28,7 @@ export async function sfwCosplayerV3() {
         return {
             results: {},
             total: 0,
-            error: 'Gagal mengambil data dari API SFW Anime'
+            error: 'Gagal mengambil data dari API SFW Cosplayer'
         };
     }
 }
