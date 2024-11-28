@@ -26,6 +26,7 @@
 // ( WIP ) Work In Progres
 // Stabile Version
 + Random Cosplayer
++ Blue Archive Maker
 # Adjustment Version
 ```
 
