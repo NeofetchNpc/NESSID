@@ -1,13 +1,13 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-# `information`
+# 📛 `information`
 > This module was created only to make it easier to use an api function as a function in the code
 > you can use it for free!!!
 > If there are bugs or problems, you can just submit issues on GitHub! We also accept requests!!!
 
 ---------
 
-🛑 Note !!!
+# 🛑 `Note !!!`
 > This Module is Still Under Development!!! Just Wait for the Update!!!
 
 ---------
@@ -21,7 +21,7 @@
 
 ---------
 
-# `📍Changelogs`
+# 📍 `Changelogs`
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
@@ -31,16 +31,16 @@
 
 ---------
 
-# `📍Documentation Moved Below`
+# 📍 `Documentation Moved Below`
 - [ID DOCS](https://github.com/NeofetchNpc/NeastooAPI/wiki/Dokumentasi-%E2%80%90-ID)
 - [EN DOCS](https://github.com/NeofetchNpc/NeastooAPI/wiki/Documentation-%E2%80%90-EN)
 
 ---------
 
-## Thanks To ( Source of Ideas )
+## 📌 `Thanks To`
 [![ShirokamiRyzen](https://github.com/ShirokamiRyzen.png?size=100)](https://github.com/ShirokamiRyzen)
 
-## Staff Contribute
+## 🛑 `Staff Contribute`
 [![NeofetchNpc](https://github.com/NeofetchNpc.png?size=100)](https://github.com/NeofetchNpc)
 [![NeastooID](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)
 [![INS](https://github.com/INsITdeveloper.png?size=100)](https://github.com/INsITdeveloper)
