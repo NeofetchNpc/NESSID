@@ -13,3 +13,11 @@ import { sfwCosplayerV3 } from './index.js';
 - sfwMeguminV2 ( Random Megumin )
 - sfwAwooV2 ( Random Awoo )
 */
+
+import { baLogo } from './index.js'; // Sesuaikan dengan lokasi module Anda
+
+(async () => {
+    const logoText = "My Custom Logo";
+    const response = await baLogo(logoText);
+    console.log(response);
+})();
