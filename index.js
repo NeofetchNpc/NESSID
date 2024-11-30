@@ -44,6 +44,7 @@ import { generateWantedPoster } from './plugins/CV-wanted.js';
 import { generateAttpGif } from './plugins/CV-attp.js';
 import { generateBratImage } from './plugins/CV-brat.js';
 import { searchOtakuSource } from './plugins/OTK-search.js';
+import { downloadOtakuEpisode } from './plugins/OTK-epid.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -91,5 +92,6 @@ export {
     generateWantedPoster,
     generateAttpGif,
     generateBratImage,
-    searchOtakuSource
+    searchOtakuSource,
+    downloadOtakuEpisode
 };
