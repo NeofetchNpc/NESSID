@@ -43,6 +43,7 @@ import { jadwalSholat } from './plugins/Tl-jadwalsholat.js';
 import { generateWantedPoster } from './plugins/CV-wanted.js';
 import { generateAttpGif } from './plugins/CV-attp.js';
 import { generateBratImage } from './plugins/CV-brat.js';
+import { searchOtakuSource } from './plugins/OTK-search.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -89,5 +90,6 @@ export {
     jadwalSholat,
     generateWantedPoster,
     generateAttpGif,
-    generateBratImage
+    generateBratImage,
+    searchOtakuSource
 };
