@@ -37,6 +37,7 @@ import { sfwAwooV2 } from './plugins/SFW-awoo.js';
 import { sfwxassV1 } from './plugins/SFW-xass.js';
 import { sfwCosplayerV3 } from './plugins/SFW-cosplayer.js';
 import { jadwalSholat } from './plugins/Tl-jadwalsholat.js';
+import { generateWantedPoster } from './plugins/CV-wanted.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -77,5 +78,6 @@ export {
     sfwAwooV2,
     sfwxassV1,
     sfwCosplayerV3,
-    jadwalSholat
+    jadwalSholat,
+    generateWantedPoster
 };
