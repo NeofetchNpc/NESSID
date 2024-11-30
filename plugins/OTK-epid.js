@@ -9,14 +9,8 @@ export async function downloadOtakuEpisode(episodeId) {
             throw new Error(`Gagal mendapatkan data episode: ${response.status}`);
         }
 
-        // Ambil seluruh data JSON dari API
-        const jsonData = await response.json();
-
-        // Kembalikan seluruh data JSON dari respon API
-        return {
-            success: true,
-            results: jsonData,  // Seluruh JSON respons
-        };
+        // Langsung kembalikan hasil JSON dari respons API
+        return await response.json();
     } catch (error) {
         console.error('Error:', error.message);
         return {
