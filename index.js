@@ -39,6 +39,7 @@ import { sfwCosplayerV3 } from './plugins/SFW-cosplayer.js';
 import { jadwalSholat } from './plugins/Tl-jadwalsholat.js';
 import { generateWantedPoster } from './plugins/CV-wanted.js';
 import { generateAttpGif } from './plugins/CV-attp.js';
+import { generateBratImage } from './plugins/CV-brat.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -81,5 +82,6 @@ export {
     sfwCosplayerV3,
     jadwalSholat,
     generateWantedPoster,
-    generateAttpGif
+    generateAttpGif,
+    generateBratImage
 };
