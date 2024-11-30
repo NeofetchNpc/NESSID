@@ -1,4 +1,5 @@
 // Import fitur lainnya
+import { generateWaifuImage } from './plugins/Ai-waifudiff.js';
 import { baLogo } from './plugins/CV-bluearchive.js';
 import { gemini } from './plugins/Ai-gemini.js';
 import { chatGPT } from './plugins/Ai-ChatGPT.js';
@@ -43,6 +44,7 @@ import { generateBratImage } from './plugins/CV-brat.js';
 
 // Ekspor semua fitur di sini
 export { 
+    generateWaifuImage,
     baLogo,
     gemini,
     chatGPT,
