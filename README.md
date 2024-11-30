@@ -27,7 +27,7 @@
 // Stabile Version
 + Maker Collection
 + Ai Generating Img
-? Anime Stream Collection - WIP
++ Anime Stream ( OtakuDesu ID )
 # Adjustment Version
 ```
 
