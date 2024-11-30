@@ -1,4 +1,4 @@
-import { generateWaifuImage } from './index.js'; 
+import { enhanceImageWithRemini } from './index.js'; 
 
-const data = await generateWaifuImage('cute anime girl');
+const data = await enhanceImageWithRemini('https://cdn.neastooid.xyz/uploads/1732948736793.jpg');
 console.log(JSON.stringify(data, null, 2));
