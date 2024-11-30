@@ -1,7 +1,7 @@
-import { baLogo } from './index.js'; // Sesuaikan dengan lokasi module Anda
+import { jadwalSholat } from './index.js'; // Sesuaikan dengan lokasi module Anda
 
 (async () => {
-    const logoText = "Kanjut Kanjut";
+    const logoText = "bandung";
     const response = await baLogo(logoText);
     console.log(response);
 })();
