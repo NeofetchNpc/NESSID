@@ -1,4 +1,4 @@
-import { generateAttpGif } from './index.js'; 
+import { generateBratImage } from './index.js'; 
 
-const data = await generateAttpGif('hallo');
+const data = await generateBratImage('hallo');
 console.log(JSON.stringify(data, null, 2));
