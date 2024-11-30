@@ -48,6 +48,7 @@ import { generateBratImage } from './plugins/CV-brat.js';
 export { 
     generateWaifuImage,
     enhanceImageWithRemini,
+    generateEmojiAIImage,
     baLogo,
     gemini,
     chatGPT,
