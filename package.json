@@ -1,6 +1,6 @@
 {
   "name": "neastooapi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scraper Module NSTID",
   "main": "index.js",
   "author": "NeofetchNpc",
@@ -75,7 +75,9 @@
     "Development tools",
     "whatsapp-api",
     "js-whatsapp",
-    "whatsapp"
+    "whatsapp",
+    "otakudesu",
+    "otakudesu-api"
   ],
   "author": "NeofetchNpc",
   "license": "ISC",
