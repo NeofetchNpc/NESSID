@@ -36,6 +36,7 @@ import { sfwEcchiV1 } from './plugins/SFW-ecchi.js';
 import { sfwAwooV2 } from './plugins/SFW-awoo.js';
 import { sfwxassV1 } from './plugins/SFW-xass.js';
 import { sfwCosplayerV3 } from './plugins/SFW-cosplayer.js';
+import { jadwalSholat } from './plugins/Tl-jadwalsholat.js';
 
 // Ekspor semua fitur di sini
 export { 
@@ -75,5 +76,6 @@ export {
     sfwEcchiV1,
     sfwAwooV2,
     sfwxassV1,
-    sfwCosplayerV3
+    sfwCosplayerV3,
+    jadwalSholat
 };
