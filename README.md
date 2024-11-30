@@ -25,7 +25,6 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Random Japan
 + Maker Collection
 + Ai Generating Img
 ? Anime Stream Collection - WIP
