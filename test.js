@@ -1,7 +1,4 @@
 import { jadwalSholat } from './index.js'; // Sesuaikan dengan lokasi module Anda
 
-(async () => {
-    const logoText = "bandung";
-    const response = await jadwalSholat(logoText);
-    console.log(response);
-})();
+const data = await jadwalSholat('bandung');
+console.log(JSON.stringify(data, null, 2));
