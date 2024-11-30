@@ -1,8 +1,4 @@
-import { downloadOtakuEpisode } from './index.js';
+import { downloadOtakuEpisode } from './index.js'; 
 
-(async () => {
-    const quary = "dddn-episode-9-sub-indo";
-    const response = await downloadOtakuEpisode(quary);
-
-    console.log(response); 
-})();
+const data = await downloadOtakuEpisode('dddn-episode-9-sub-indo');
+console.log(JSON.stringify(data, null, 2));
