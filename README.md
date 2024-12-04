@@ -25,10 +25,9 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Maker Collection
-+ Ai Generating Img
-+ Anime Stream ( OtakuDesu ID )
-# Adjustment Version
++ Otaku Anime Info
+- Gemini
+// This Module Only Supports ESM Code 
 ```
 
 ---------
