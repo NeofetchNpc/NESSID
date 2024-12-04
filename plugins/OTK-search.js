@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function searchOtakuSource(query) {
+export async function searchOtakuSrc(query) {
     try {
         // Panggil API untuk mencari otaku-src berdasarkan search query yang diberikan
         const response = await fetch(`https://api.neastooid.xyz/api/streaming/otaku-search?q=${encodeURIComponent(query)}`);
