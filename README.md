@@ -25,8 +25,7 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Otaku Anime Info
-- Gemini
++ Fix Func 
 // This Module Only Supports ESM Code 
 ```
 
