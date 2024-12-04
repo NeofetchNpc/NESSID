@@ -3,8 +3,3 @@
 const data = await downloadOtakuEpisode('dddn-episode-9-sub-indo');
 console.log(JSON.stringify(data, null, 2));
 */
-
-import { infoOtakuSource } from './index.js'; 
-
-const data = await infoOtakuSource('date-live-v-sub-indo');
-console.log(JSON.stringify(data, null, 2));
