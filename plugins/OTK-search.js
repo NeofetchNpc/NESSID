@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 export async function searchOtakuSource(query) {
     try {
         // Panggil API untuk mencari otaku-src berdasarkan search query yang diberikan
-        const response = await fetch(`https://api.neastooid.xyz/api/streaming/otaku-src?search=${encodeURIComponent(query)}`);
+        const response = await fetch(`https://api.neastooid.xyz/api/streaming/otaku-search?q=${encodeURIComponent(query)}`);
 
         if (!response.ok) {
             throw new Error(`Gagal mendapatkan hasil pencarian: ${response.status}`);
