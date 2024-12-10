@@ -4,7 +4,7 @@ const data = await downloadOtakuEpisode('dddn-episode-9-sub-indo');
 console.log(JSON.stringify(data, null, 2));
 */
 
-import { baLogo } from './index.js';
+import baLogo from './plugins/index.js';
 
 (async () => {
     const logoText = "Kanjut Kanjut";
