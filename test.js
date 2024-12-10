@@ -4,10 +4,7 @@ const data = await downloadOtakuEpisode('dddn-episode-9-sub-indo');
 console.log(JSON.stringify(data, null, 2));
 */
 
-import baLogo from './plugins/index.js';
+import chatGPT from './index.js';
 
-(async () => {
-    const logoText = "Kanjut Kanjut";
-    const response = await baLogo(logoText);
-    console.log(response);
-})();
+const result = await chatGPT('Hello, ChatGPT!');
+console.log(result);

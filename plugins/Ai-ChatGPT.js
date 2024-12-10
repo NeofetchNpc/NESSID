@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function chatGPT(prompt) {
+export default async function chatGPT(prompt) {
     try {
         const url = `https://api.neastooid.xyz/api/ai/chatgpt?prompt=${encodeURIComponent(prompt)}`;
         const response = await fetch(url);
