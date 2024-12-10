@@ -1,13 +1,12 @@
-import fetch from 'node-fetch';
+import axios from 'axios';
 
 export default async function chatGPT(prompt) {
     try {
         const url = `https://api.neastooid.xyz/api/ai/chatgpt?prompt=${encodeURIComponent(prompt)}`;
-        const response = await fetch(url);
-        const data = await response.json();
+        const response = await axios.get(url);
 
-        if (data.success) {
-            return data.response;
+        if (response.data.success) {
+            return response.data.response;
         } else {
             throw new Error('Gagal mendapatkan respons dari API');
         }
