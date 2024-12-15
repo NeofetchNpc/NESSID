@@ -1,5 +1,5 @@
 {
-  "name": "NessAPI",
+  "name": "neastooapi",
   "version": "1.0.4",
   "description": "NeastooID Scraper Downloader",
   "main": "index.js",
