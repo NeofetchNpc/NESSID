@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function twitterDownloader(url) {
+export async function twitterDl(url) {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/downloader/x?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
