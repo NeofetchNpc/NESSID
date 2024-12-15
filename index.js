@@ -1,6 +1,6 @@
 import { chatGPT } from './plugins/Ai-ChatGPT.js';
 
-const neastooapi = {
+const nessid = {
     chatGPT,
 };
 
