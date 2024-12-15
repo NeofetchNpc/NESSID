@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function pixivSearch(query) {
+export async function pixivTl(query) {
   if (!query) throw new Error('Query is required.');
 
   const endpoint = `https://api.neastooid.xyz/api/tools/pixiv?query=${encodeURIComponent(query)}`;
