@@ -27,8 +27,8 @@
 // Stabile Version
 + Support Import / Const Method
 - Only Downloader / Ai / Tools
-</> Random Anime Features - WIP
-</> Tools Features - WIP
+? Random Anime Features - WIP
+? Tools Features - WIP
 ```
 
 ---------
