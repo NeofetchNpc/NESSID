@@ -1,6 +1,4 @@
-const chatGPT = require('./index.js');
+import chatGPT from './index.js';
 
-(async () => {
-  const result = await chatGPT('Hello, ChatGPT!');
-  console.log(result);
-})();
+const result = await chatGPT('Hello, ChatGPT!');
+console.log(result);
