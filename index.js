@@ -1,2 +1,2 @@
-import chatGPT from './plugins/AI-ChatGPT.js';
+import chatGPT from './plugins/Ai-Gemini.js';
 export { chatGPT };
