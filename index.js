@@ -25,7 +25,6 @@ const nessid = {
     twitterDl,
     ytmp3Dl,
     ytmp4Dl,
-    
 };
 
 export default nessid;
