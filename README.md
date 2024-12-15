@@ -26,7 +26,9 @@
 // ( WIP ) Work In Progres
 // Stabile Version
 + Support Import / Const Method
-- Only Downloader Viture / Ai
+- Only Downloader / Ai / Tools
+</> Random Anime Features - WIP
+</> Tools Features - WIP
 ```
 
 ---------
