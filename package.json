@@ -4,7 +4,6 @@
   "description": "NeastooID Scraper Downloader",
   "main": "index.js",
   "author": "NeofetchNpc",
-  "type": "module",
   "scripts": {
     "test": "node test.js"
   },
