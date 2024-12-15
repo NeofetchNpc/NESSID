@@ -1,6 +1,6 @@
-import neastooapi from './index.js';
+import nessid from './index.js';
 
 (async () => {
-    const chatResponse = await neastooapi.chatGPT('princes connact');
+    const chatResponse = await nessid.chatGPT('princes connact');
     console.log(chatResponse);
 })();
