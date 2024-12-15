@@ -25,8 +25,8 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Fix Func 
-// This Module Only Supports ESM Code 
++ Support Import / Const Method
+- Only Downloader Viture / Ai
 ```
 
 ---------
