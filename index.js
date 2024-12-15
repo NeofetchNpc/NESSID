@@ -9,8 +9,8 @@ import { soundCloudDl } from './plugins/DL-soundcloud.js';
 import { SpotifyDL } from './plugins/DL-spotify.js';
 import { TiktokDL } from './plugins/DL-tiktok.js';
 import { twitterDl } from './plugins/DL-x.js';
-import { chatGPT } from './plugins/Ai-ChatGPT.js';
-import { chatGPT } from './plugins/Ai-ChatGPT.js';
+import { ytmp3Dl } from './plugins/DL-ytmp3.js';
+import { ytmp4Dl } from './plugins/DL-ytmp4.js';
 
 const nessid = {
     chatGPT,
@@ -23,6 +23,8 @@ const nessid = {
     SpotifyDL,
     TiktokDL,
     twitterDl,
+    ytmp3Dl,
+    ytmp4Dl,
     
 };
 
