@@ -1,4 +1,6 @@
-import chatGPT from './index.js';
+import neastooapi from './index.js';
 
-const result = await chatGPT('Hello, ChatGPT!');
-console.log(result);
+(async () => {
+    const chatResponse = await neastooapi.chatGPT('princes connact');
+    console.log(chatResponse);
+})();
