@@ -1,4 +1,4 @@
-import { chatGPT } from './src/AI-ChatGPT.js';
+import { chatGPT } from './plugins/AI-ChatGPT.js';
 
 const neastooapi = {
     chatGPT,
