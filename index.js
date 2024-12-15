@@ -5,6 +5,9 @@ import { facebookDl } from './plugins/DL-facebook.js';
 import { InstagramDL } from './plugins/DL-instagram.js';
 import { gdriveDown } from './plugins/DL-gdrive.js';
 import { mediafireDl } from './plugins/DL-mediafire.js';
+import { soundCloudDl } from './plugins/DL-soundcloud.js';
+import { SpotifyDL } from './plugins/DL-spotify.js';
+import { TiktokDL } from './plugins/DL-tiktok.js';
 import { chatGPT } from './plugins/Ai-ChatGPT.js';
 import { chatGPT } from './plugins/Ai-ChatGPT.js';
 
@@ -16,6 +19,8 @@ const nessid = {
     InstagramDL,
     gdriveDown,
     mediafireDl,
+    SpotifyDL,
+    TiktokDL,
 };
 
 export default nessid;
