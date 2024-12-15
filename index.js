@@ -8,6 +8,7 @@ import { mediafireDl } from './plugins/DL-mediafire.js';
 import { soundCloudDl } from './plugins/DL-soundcloud.js';
 import { SpotifyDL } from './plugins/DL-spotify.js';
 import { TiktokDL } from './plugins/DL-tiktok.js';
+import { twitterDl } from './plugins/DL-x.js';
 import { chatGPT } from './plugins/Ai-ChatGPT.js';
 import { chatGPT } from './plugins/Ai-ChatGPT.js';
 
@@ -21,6 +22,8 @@ const nessid = {
     mediafireDl,
     SpotifyDL,
     TiktokDL,
+    twitterDl,
+    
 };
 
 export default nessid;
