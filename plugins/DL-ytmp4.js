@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function ytbmp4downloader(url) {
+export async function ytmp4Dl(url) {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/downloader/ytmp4?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
