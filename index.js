@@ -1,2 +1,7 @@
-import chatGPT from './plugins/Ai-Gemini.js';
-export { chatGPT };
+import { chatGPT } from './src/AI-ChatGPT.js';
+
+const neastooapi = {
+    chatGPT,
+};
+
+export default neastooapi;
