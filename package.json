@@ -1,7 +1,7 @@
 {
   "name": "neastooapi",
   "version": "1.0.4",
-  "description": "Scraper Module NSTID",
+  "description": "NeastooID Scraper Downloader",
   "main": "index.js",
   "author": "NeofetchNpc",
   "type": "module",
