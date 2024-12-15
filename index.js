@@ -4,4 +4,4 @@ const neastooapi = {
     chatGPT,
 };
 
-export default neastooapi;
+export default nessid;
