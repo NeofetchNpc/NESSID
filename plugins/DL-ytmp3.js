@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function ytbmp3downloader(url) {
+export async function ytmp3Dl(url) {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/downloader/ytmp3?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
