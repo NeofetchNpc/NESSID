@@ -11,6 +11,7 @@ import { TiktokDL } from './plugins/DL-tiktok.js';
 import { twitterDl } from './plugins/DL-x.js';
 import { ytmp3Dl } from './plugins/DL-ytmp3.js';
 import { ytmp4Dl } from './plugins/DL-ytmp4.js';
+import { pixivTl } from './plugins/Tl-pixiv.js';
 
 const nessid = {
     chatGPT,
@@ -25,6 +26,7 @@ const nessid = {
     twitterDl,
     ytmp3Dl,
     ytmp4Dl,
+    pixivTl,
 };
 
 export default nessid;
