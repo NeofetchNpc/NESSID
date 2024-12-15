@@ -25,6 +25,7 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
+! Update Func 
 + Support Import / Const Method
 - Only Downloader / Ai / Tools
 ? Random Anime Features - WIP
