@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function allInOneDownload(url) {
+export async function aioDown(url) {
   if (!url) throw new Error('URL is required.');
 
   const endpoint = `https://api.neastooid.xyz/api/downloader/aiodown?url=${encodeURIComponent(url)}`;
