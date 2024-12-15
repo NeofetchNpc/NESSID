@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function googleDriveDownloader(url) {
+export async function gdriveDown(url) {
     try {
         const apiUrl = `https://api.neastooid.xyz/api/downloader/gdrive?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
