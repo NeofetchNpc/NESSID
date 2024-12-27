@@ -10,16 +10,16 @@ import { ytmp3DL } from './plugins/DL-ytmp3.js';
 import { ytmp4DL } from './plugins/DL-ytmp4.js';
 
 const nessid = {
-    bStationDL,
-    facebookDL,
-    InstagramDL,
-    gdriveDL,
-    mediafireDL,
-    SpotifyDL,
-    TiktokDL,
-    twitterDL,
-    ytmp3DL,
-    ytmp4DL,
+  bStationDL,
+  facebookDL,
+  InstagramDL,
+  gdriveDL,
+  mediafireDL,
+  SpotifyDL,
+  TiktokDL,
+  twitterDL,
+  ytmp3DL,
+  ytmp4DL,
 };
 
 export default nessid;
