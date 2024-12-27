@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 export async function SpotifyDL(url) {
     try {
-        const apiUrl = `https://api.neastooid.xyz/api/downloader/spotifydl?url=${encodeURIComponent(url)}`;
+        const apiUrl = `https://api.ryzendesu.vip/api/downloader/spotify?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
 
         if (!response.ok) {
