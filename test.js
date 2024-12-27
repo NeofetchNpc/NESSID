@@ -1,8 +1,8 @@
 import nessid from './index.js';
 
-const url = 'https://www.bilibili.tv/id/video/2043082458?bstar_from=bstar-web.ugc-video-detail.related-recommend.all';
+const url = 'https://www.facebook.com/share/r/11ashCcxTKh9kPFH/';
 
-nessid.bStationDL(url)
+nessid.facebookDL(url)
   .then(result => {
     console.log(JSON.stringify(result, null, 2));
   })
