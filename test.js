@@ -6,6 +6,3 @@ nessid.bStationDL(url)
   .then(result => {
     console.log(JSON.stringify(result, null, 2));
   })
-  .catch(error => {
-    console.error('Terjadi kesalahan:', error);
-  });
