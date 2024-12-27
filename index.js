@@ -18,6 +18,7 @@ const nessid = {
     InstagramDL,
     gdriveDL,
     mediafireDL,
+    SoundCloudDL,
     SpotifyDL,
     TiktokDL,
     twitterDL,
