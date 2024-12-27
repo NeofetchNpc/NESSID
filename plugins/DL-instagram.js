@@ -1,21 +1,17 @@
-import fetch from 'node-fetch';
+import axios from 'axios';
 
 export async function InstagramDL(url) {
-    try {
-        const apiUrl = `https://api.ryzendesu.vip/api/downloader/igdl?url=${encodeURIComponent(url)}`;
-        const response = await fetch(apiUrl);
+  if (!url) {
+    throw new Error('URL is required.');
+  }
 
-        if (!response.ok) {
-            throw new Error(`HTTP Error: ${response.status}`);
-        }
+  try {
+    const { data } = await axios.get('https://api.ryzendesu.vip/api/downloader/igdl', {
+      params: { url },
+    });
 
-        const data = await response.json();
-        return data; // Mengembalikan JSON langsung tanpa modifikasi
-    } catch (error) {
-        console.error('Error:', error.message);
-        return {
-            success: false,
-            error: 'Error dalam mendapatkan data dari API Instagram downloader',
-        };
-    }
+    return data;
+  } catch (error) {
+    throw new Error(`Failed to fetch: ${error.message}`);
+  }
 }
