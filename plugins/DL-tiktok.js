@@ -1,21 +1,15 @@
-import fetch from 'node-fetch';
+import axios from 'axios';
 
 export async function TiktokDL(url) {
-    try {
-        const apiUrl = `https://api.ryzendesu.vip/api/downloader/ttdl?url=${encodeURIComponent(url)}`;
-        const response = await fetch(apiUrl);
+  if (!url) throw new Error('URL is required.');
 
-        if (!response.ok) {
-            throw new Error(`HTTP Error: ${response.status}`);
-        }
+  try {
+    const { data } = await axios.get('https://api.ryzendesu.vip/api/downloader/ttdl', {
+      params: { url },
+    });
 
-        const result = await response.json();
-        return result; // Mengembalikan JSON langsung tanpa modifikasi
-    } catch (error) {
-        console.error('Error:', error.message);
-        return {
-            success: false,
-            error: 'Error dalam mendapatkan data dari API TikTok downloader'
-        };
-    }
+    return data;
+  } catch (error) {
+    throw new Error(error.message);
+  }
 }
