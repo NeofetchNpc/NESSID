@@ -85,10 +85,8 @@
     "type": "git",
     "url": "https://github.com/NeofetchNpc/NeastooAPI.git"
   },
-  "homepage": "https://api.neastooid.xyz",
+  "homepage": "https://saweria.co/YUSUP909",
   "dependencies": {
-    "node-fetch": "^3.3.2",
-    "cheerio": "1.0.0-rc.12",
-    "axios": "^1.7.2"
+    "axios": "^1.7.2",
   }
 }
