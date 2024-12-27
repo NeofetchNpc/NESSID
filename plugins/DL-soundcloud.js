@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function soundCloudDl(url) {
+export async function SoundCloudDL(url) {
   if (!url) throw new Error('URL is required.');
 
   const endpoint = `https://api.neastooid.xyz/api/downloader/soundcloud?url=${encodeURIComponent(url)}`;
