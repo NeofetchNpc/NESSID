@@ -4,16 +4,16 @@ export async function SpotifyDL(url) {
   if (!url) throw new Error('URL is required.');
 
   try {
-    const { data } = await axios.get('https://api.ryzendesu.vip/api/downloader/spotify', {
-      params: { url },
+    const { data } = await axios.get('https://ins.neastooid.xyz/api/downloader/spotifydl', {
+      params: { url }, 
     });
 
     if (!data.success) {
-      throw new Error(data.message);
+      throw new Error(data.message || 'Failed to fetch Spotify data.');
     }
 
     return data;
   } catch (error) {
-    throw new Error(error.message);
+    throw new Error(error.response?.data?.message || error.message);
   }
 }
