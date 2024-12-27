@@ -1,14 +1,17 @@
-import fetch from 'node-fetch';
+import axios from 'axios';
 
 export async function mediafireDL(url) {
-  if (!url) throw new Error('URL is required.');
-
-  const endpoint = `https://api.neastooid.xyz/api/downloader/mediafire?url=${encodeURIComponent(url)}`;
-  const response = await fetch(endpoint);
-
-  if (!response.ok) {
-    throw new Error(`Failed to fetch: ${response.status}`);
+  if (!url) {
+    throw new Error('URL is required.');
   }
 
-  return response.json();
+  try {
+    const { data } = await axios.get('https://api.neastooid.xyz/api/downloader/mediafire', {
+      params: { url },
+    });
+
+    return data;
+  } catch (error) {
+    throw new Error(`Failed to fetch: ${error.message}`);
+  }
 }
