@@ -1,4 +1,4 @@
-import { bStationDL } from './plugins/DL-aio.js'; // Sesuaikan path sesuai lokasi file
+import { bStationDL } from './plugins/DL-bli.js'; // Sesuaikan path sesuai lokasi file
 
 (async () => {
   try {
