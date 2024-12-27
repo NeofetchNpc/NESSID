@@ -1,14 +1,10 @@
-import fetch from 'node-fetch';
+import axios from 'axios';
 
 export async function bStationDL(url) {
   if (!url) throw new Error('URL is required.');
 
-  const endpoint = `https://api.ryzendesu.vip/api/downloader/bilibili?url=${encodeURIComponent(url)}`;
-  const response = await fetch(endpoint);
-
-  if (!response.ok) {
-    throw new Error(`Failed to fetch: ${response.status}`);
-  }
-
-  return response.json();
+  const { data } = await axios.get(`https://api.ryzendesu.vip/api/downloader/bilibili`, {
+    params: { url },
+  });
+  return data;
 }
