@@ -4,7 +4,6 @@ import { facebookDL } from './plugins/DL-facebook.js';
 import { InstagramDL } from './plugins/DL-instagram.js';
 import { gdriveDL } from './plugins/DL-gdrive.js';
 import { mediafireDL } from './plugins/DL-mediafire.js';
-import { SoundCloudDL } from './plugins/DL-soundcloud.js';
 import { SpotifyDL } from './plugins/DL-spotify.js';
 import { TiktokDL } from './plugins/DL-tiktok.js';
 import { twitterDL } from './plugins/DL-x.js';
@@ -18,7 +17,6 @@ const nessid = {
     InstagramDL,
     gdriveDL,
     mediafireDL,
-    SoundCloudDL,
     SpotifyDL,
     TiktokDL,
     twitterDL,
