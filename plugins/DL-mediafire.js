@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function mediafireDl(url) {
+export async function mediafireDL(url) {
   if (!url) throw new Error('URL is required.');
 
   const endpoint = `https://api.neastooid.xyz/api/downloader/mediafire?url=${encodeURIComponent(url)}`;
