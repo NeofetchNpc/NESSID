@@ -1,9 +1,9 @@
 import fetch from 'node-fetch';
 
-export async function aioDown(url) {
+export async function AioDownloads(url) {
   if (!url) throw new Error('URL is required.');
 
-  const endpoint = `https://api.neastooid.xyz/api/downloader/aiodown?url=${encodeURIComponent(url)}`;
+  const endpoint = `https://api.ryzendesu.vip/api/downloader/aiodown?url=${encodeURIComponent(url)}`;
   const response = await fetch(endpoint);
 
   if (!response.ok) {
