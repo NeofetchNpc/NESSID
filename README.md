@@ -35,7 +35,7 @@
 ---------
 
 # 📍 `Documentation`
-- [ID DOCS](https://github.com/NeofetchNpc/NeastooAPI/wiki/Dokumentasi-%E2%80%90-ID)
+- [DOCS](https://github.com/NeofetchNpc/NeastooAPI/wiki/Documentation)
 - [DONASI](https://saweria.co/YUSUP909)
 
 ---------
