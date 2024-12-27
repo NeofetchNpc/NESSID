@@ -1,14 +1,17 @@
-import fetch from 'node-fetch';
+import axios from 'axios';
 
 export async function facebookDL(url) {
-  if (!url) throw new Error('URL is required.');
-
-  const endpoint = `https://api.ryzendesu.vip/api/downloader/fbdl?url=${encodeURIComponent(url)}`;
-  const response = await fetch(endpoint);
-
-  if (!response.ok) {
-    throw new Error(`Failed to fetch: ${response.status}`);
+  if (!url) {
+    throw new Error('URL is required.');
   }
 
-  return response.json();
+  try {
+    const { data } = await axios.get('https://api.ryzendesu.vip/api/downloader/fbdl', {
+      params: { url },
+    });
+
+    return data;
+  } catch (error) {
+    throw new Error(`Failed to fetch: ${error.message}`);
+  }
 }
