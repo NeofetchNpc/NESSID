@@ -5,7 +5,7 @@ export async function TiktokDL(url) {
 
   try {
     const { data } = await axios.get('https://ins.neastooid.xyz/api/downloader/tiktokdl', {
-      params: { q },
+      params: { q: url },
     });
 
     return data;
