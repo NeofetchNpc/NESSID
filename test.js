@@ -1,4 +1,3 @@
-
 import nessid from './index.js';
 
 const url = 'https://www.tiktok.com/@yusupkaku/video/7450672111032503557';
