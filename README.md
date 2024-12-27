@@ -25,11 +25,11 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-! Update Func 
+! Update Func
+! Only ESM Code 🙏🏻
 + Support Import / Const Method
-- Only Downloader / Ai / Tools
-? Random Anime Features - WIP
-? Tools Features - WIP
+- Only Downloader !!!
+- Fix Api Fetch
 ```
 
 ---------
