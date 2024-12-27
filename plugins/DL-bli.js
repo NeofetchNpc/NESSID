@@ -1,9 +1,9 @@
 import fetch from 'node-fetch';
 
-export async function bStasionDl(url) {
+export async function bStationDL(url) {
   if (!url) throw new Error('URL is required.');
 
-  const endpoint = `https://api.neastooid.xyz/api/downloader/bstasion?url=${encodeURIComponent(url)}`;
+  const endpoint = `https://api.ryzendesu.vip/api/downloader/bilibili?url=${encodeURIComponent(url)}`;
   const response = await fetch(endpoint);
 
   if (!response.ok) {
