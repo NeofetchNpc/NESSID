@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 export async function InstagramDL(url) {
     try {
-        const apiUrl = `https://api.neastooid.xyz/api/downloader/igdl?url=${encodeURIComponent(url)}`;
+        const apiUrl = `https://api.ryzendesu.vip/api/downloader/igdl?url=${encodeURIComponent(url)}`;
         const response = await fetch(apiUrl);
 
         if (!response.ok) {
