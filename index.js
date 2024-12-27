@@ -1,4 +1,4 @@
-import { AioDownloads } from './plugins/DL-aio.js';
+import { AioDL } from './plugins/DL-aio.js';
 import { bStationDL } from './plugins/DL-bli.js';
 import { facebookDL } from './plugins/DL-facebook.js';
 import { InstagramDL } from './plugins/DL-instagram.js';
@@ -12,7 +12,7 @@ import { ytmp3DL } from './plugins/DL-ytmp3.js';
 import { ytmp4DL } from './plugins/DL-ytmp4.js';
 
 const nessid = {
-    AioDownloads,
+    AioDL,
     bStationDL,
     facebookDL,
     InstagramDL,
