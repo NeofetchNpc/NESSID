@@ -4,7 +4,7 @@ export async function twitterDL(url) {
   if (!url) throw new Error('URL is required.');
 
   try {
-    const { data } = await axios.get('https://api.ryzendesu.vip/api/downloader/twitter', {
+    const { data } = await axios.get('ins.neastooid.xyz/api/downloader/x', {
       params: { url },
     });
 
