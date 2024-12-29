@@ -8,9 +8,9 @@ import { twitterDL } from './plugins/DL-x.js';
 import { ytmp3DL } from './plugins/DL-ytmp3.js';
 import { ytmp4DL } from './plugins/DL-ytmp4.js';
 import { SFWcosplay } from './plugins/ANI-cosplay.js';
-import { SFWlolicon } from './plugins/ANI-cosplay.js';
-import { SFWwaifuv1 } from './plugins/ANI-cosplay.js';
-import { SFWwaifuv2 } from './plugins/ANI-cosplay.js';
+import { SFWlolicon } from './plugins/ANI-loli.js';
+import { SFWwaifuv1 } from './plugins/ANI-waifuv1.js';
+import { SFWwaifuv2 } from './plugins/ANI-waifuv2.js';
 
 const nessid = {
   facebookDL,
