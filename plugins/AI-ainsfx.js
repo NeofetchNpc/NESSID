@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function AINSFX(prompt) {
+export async function A1NSFx(prompt) {
   if (!prompt) throw new Error('Prompt is required.');
 
   try {
