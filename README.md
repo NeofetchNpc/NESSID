@@ -29,8 +29,7 @@
 ! Only ESM Code 🙏🏻
 + Add Anime Fiture
 ? Ai - WIP
-- Only Downloader !!!
-- Fix Api Fetch
+- Fix Downloader !!!
 ```
 
 ---------
