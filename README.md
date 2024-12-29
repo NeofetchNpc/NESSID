@@ -41,7 +41,6 @@
 ---------
 
 ## 📌 `Thanks To`
-[![ShirokamiRyzen](https://github.com/ShirokamiRyzen.png?size=100)](https://github.com/ShirokamiRyzen)
 [![INS](https://github.com/INsITdeveloper.png?size=100)](https://github.com/INsITdeveloper)
 [![SCP](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
 
