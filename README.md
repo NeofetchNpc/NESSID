@@ -27,7 +27,8 @@
 // Stabile Version
 ! Update Func
 ! Only ESM Code 🙏🏻
-+ Support Import / Const Method
++ Add Anime Fiture
+? Ai - WIP
 - Only Downloader !!!
 - Fix Api Fetch
 ```
