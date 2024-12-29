@@ -7,6 +7,10 @@ import { TiktokDL } from './plugins/DL-tiktok.js';
 import { twitterDL } from './plugins/DL-x.js';
 import { ytmp3DL } from './plugins/DL-ytmp3.js';
 import { ytmp4DL } from './plugins/DL-ytmp4.js';
+import { ytmp4DL } from './plugins/ANI-cosplay.js';
+import { ytmp4DL } from './plugins/ANI-cosplay.js';
+import { ytmp4DL } from './plugins/ANI-cosplay.js';
+import { ytmp4DL } from './plugins/ANI-cosplay.js';
 
 const nessid = {
   facebookDL,
