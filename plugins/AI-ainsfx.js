@@ -12,7 +12,7 @@ export async function A1NSFx(prompt) {
       }
     });
 
-    return data.thumbnailUrl;
+    return data;
   } catch (error) {
     throw new Error(error.message);
   }
