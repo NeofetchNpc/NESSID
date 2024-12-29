@@ -25,8 +25,6 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-! Update Func
-! Only ESM Code 🙏🏻
 + Add Anime Fiture
 ? Ai - WIP
 - Fix Downloader !!!
