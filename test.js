@@ -1,4 +1,4 @@
 import nessid from './index.js';
 
-nessid.SFWwaifuv1('maid')
+nessid.A1NSFx('anime cewe cantik di pantai')
   .then(result => console.log(result));
