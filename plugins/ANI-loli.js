@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function getAnimeLoli() {
+export async function SFWlolicon() {
   try {
     const { data } = await axios.get('https://api.neastooid.xyz/api/anime/loli');
     return data;
