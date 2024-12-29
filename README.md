@@ -25,7 +25,7 @@
 
 ---------
 
-# 📍 `Documentation`
+# 📍 `MORE INFO`
 - [DOCS](https://github.com/NeofetchNpc/NeastooAPI/wiki/Documentation)
 - [DONASI](https://saweria.co/INSDV)
 
