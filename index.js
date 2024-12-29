@@ -1,6 +1,5 @@
 import { facebookDL } from './plugins/DL-facebook.js';
 import { InstagramDL } from './plugins/DL-instagram.js';
-import { gdriveDL } from './plugins/DL-gdrive.js';
 import { mediafireDL } from './plugins/DL-mediafire.js';
 import { SpotifyDL } from './plugins/DL-spotify.js';
 import { TiktokDL } from './plugins/DL-tiktok.js';
@@ -15,7 +14,6 @@ import { SFWwaifuv2 } from './plugins/ANI-waifuv2.js';
 const nessid = {
   facebookDL,
   InstagramDL,
-  gdriveDL,
   mediafireDL,
   SpotifyDL,
   TiktokDL,
