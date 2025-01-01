@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 import { tmpdir } from 'os';
 import { join } from 'path';
 
-export async function baLogo(text) {
+export async function BaLogo(text) {
     try {
         // Generate logo menggunakan 'ba-logo' dengan teks yang diberikan
         const image = await baLogoGenerator(text);
