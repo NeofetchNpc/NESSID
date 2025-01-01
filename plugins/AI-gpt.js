@@ -7,15 +7,16 @@ export async function chatGpt(url) {
 
   try {
     const { data } = await axios.get('https://api.neastooid.xyz/api/ai/gpt', {
-      params: { q },
+      params: { q: url },
     });
 
     if (!data.success) {
-      throw new Error(data.message);
+      throw new Error(data.message || 'Something went wrong');
     }
 
     return data;
   } catch (error) {
-    throw new Error(error.message);
+    const errorMessage = error.response ? error.response.data.message : error.message || 'Unknown error';
+    throw new Error(errorMessage);
   }
 }
