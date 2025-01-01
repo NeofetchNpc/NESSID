@@ -18,8 +18,8 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Bratt Sticker
-+ Ai - WIP
++ Blue Archive Logo
++ Ai GPT & SIMI
 + SoundCloud Downloader
 + Fix Downloader !!!
 ```
