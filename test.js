@@ -1,4 +1,4 @@
 import nessid from './index.js';
 
-nessid.A1NSFx('anime cewe cantik di pantai')
+nessid.baLogo('jawa')
   .then(result => console.log(result));
