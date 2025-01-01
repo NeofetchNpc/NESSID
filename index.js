@@ -12,6 +12,7 @@ import { SFWwaifuv1 } from './plugins/ANI-waifuv1.js';
 import { SFWwaifuv2 } from './plugins/ANI-waifuv2.js';
 import { A1NSFx } from './plugins/AI-ainsfx.js';
 import { ChatGpt } from './plugins/AI-gpt.js';
+import { SimiAi } from './plugins/AI-simi.js';
 import { BaLogo } from './plugins/MK-bluearchive.js';
 
 const nessid = {
@@ -29,6 +30,7 @@ const nessid = {
   SFWcosplay,
   A1NSFx,
   ChatGpt,
+  SimiAi,
   BaLogo,
 };
 
