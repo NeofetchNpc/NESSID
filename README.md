@@ -18,9 +18,10 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Add Anime Fiture
-? Ai - WIP
-- Fix Downloader !!!
++ Bratt Sticker
++ Ai - WIP
++ SoundCloud Downloader
++ Fix Downloader !!!
 ```
 
 ---------
