@@ -1,6 +1,6 @@
 {
   "name": "neastooapi",
-  "version": "1.1.00",
+  "version": "1.1.01",
   "description": "NessID Scraper Module",
   "main": "index.js",
   "author": "NeofetchNpc",
