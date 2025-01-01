@@ -1,4 +1,4 @@
 import nessid from './index.js';
 
-nessid.ChatGpt('haloo')
+nessid.SimiAi('haloo')
   .then(result => console.log(result));
