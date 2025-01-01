@@ -1,3 +1,4 @@
+import { BstationDl } from './plugins/DL-bstation.js';
 import { facebookDL } from './plugins/DL-facebook.js';
 import { InstagramDL } from './plugins/DL-instagram.js';
 import { mediafireDL } from './plugins/DL-mediafire.js';
@@ -17,6 +18,7 @@ import { SimiAi } from './plugins/AI-simi.js';
 import { BaLogo } from './plugins/MK-bluearchive.js';
 
 const nessid = {
+  BstationDl,
   facebookDL,
   InstagramDL,
   mediafireDL,
