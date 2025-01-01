@@ -1,4 +1,5 @@
-import nessid from './index.js';
+/*import nessid from './index.js';
 
 nessid.SimiAi('haloo')
   .then(result => console.log(result));
+*/
