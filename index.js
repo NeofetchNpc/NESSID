@@ -11,6 +11,7 @@ import { SFWlolicon } from './plugins/ANI-loli.js';
 import { SFWwaifuv1 } from './plugins/ANI-waifuv1.js';
 import { SFWwaifuv2 } from './plugins/ANI-waifuv2.js';
 import { A1NSFx } from './plugins/AI-ainsfx.js';
+import { baLogo } from './plugins/MK-bluearchive.js';
 
 const nessid = {
   facebookDL,
@@ -26,6 +27,7 @@ const nessid = {
   SFWlolicon,
   SFWcosplay,
   A1NSFx,
+  baLogo,
 };
 
 export default nessid;
