@@ -32,7 +32,8 @@
     "Audio downloader",
     "Video downloader",
     "whatsapp-api",
-    "otakudesu-api"
+    "otakudesu-api",
+    "blue-archive"
   ],
   "author": "NeofetchNpc",
   "license": "ISC",
@@ -42,6 +43,8 @@
   },
   "homepage": "https://saweria.co/YUSUP909",
   "dependencies": {
-    "axios": "^1.7.2"
+    "axios": "1.7.2",
+    "node-fetch": "3.3.2",
+    "ba-logo": "1.0.3"
   }
 }
