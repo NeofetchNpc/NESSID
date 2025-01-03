@@ -19,9 +19,7 @@
 // ( WIP ) Work In Progres
 // Stabile Version
 + Blue Archive Logo
-+ Ai GPT & SIMI
-+ SoundCloud Downloader
-+ Fix Downloader !!!
++ FIX YTMP DOWNLOADER
 ```
 
 ---------
