@@ -24,6 +24,11 @@
 
 ---------
 
+# 🛑 `Announcement !!!`
+> Please Do Not Spam Because Our Server Is Only On Vercel With Free Billing, If You Want To Help Donate, You Can Do It On The Homepage Link!!!.
+
+---------
+
 # 📍 `MORE INFO`
 - [DOCS](https://github.com/NeofetchNpc/NeastooAPI/wiki/Documentation)
 - [DONASI](https://saweria.co/INSDV)
