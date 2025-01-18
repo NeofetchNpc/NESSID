@@ -1,6 +1,5 @@
-/*
+
 import nessid from './index.js';
 
-nessid.ytmp4DL('https://youtu.be/TUo_zDKN4bM?si=jBWElayEnBA8WJkW')
+nessid.InstagramDL('https://www.instagram.com/reel/DEYwFTASOHw/?igsh=MXNhazQxNjkzeGgzcA==')
   .then(result => console.log(result));
-*/
