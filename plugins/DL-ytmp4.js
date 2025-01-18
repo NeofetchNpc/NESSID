@@ -1,89 +1,104 @@
-import axios from "axios";
+const _0x3d5a = ['video', '144p', '240p', '360p', '480p', '720p', '1080p', '1', '2', '3', '4', '5', '6', 'fetchSaveTube', 'post', 'data', 'message', 'Gagal mendapatkan informasi video.', 'download', 'Gagal mendapatkan tautan unduhan.', 'success', 'title', 'durationLabel', 'thumbnail', 'downloadUrl', 'quality', 'type', 'Download gagal: ', 'ytmp4DL', 'URL is required.', 'downloadVideo', 'constructor', 'qualities', 'application/json', 'headers', 'accept', '*/*', 'authority', 'cdn', '.savetube.su', 'referer', 'https://ytshorts.savetube.me/', 'origin', 'user-agent', 'Postify/1.0.0', 'Content-Type', 'url', 'info', 'key', 'https://', '/info', 'https://', '/download', 'downloadType', 'video', 'Gagal mendapatkan video.'];
+
+(function (_0x1f8b2a, _0x3d5a5d) {
+  const _0x4c7f4a = function (_0x5a4d8f) {
+    while (--_0x5a4d8f) {
+      _0x1f8b2a['push'](_0x1f8b2a['shift']());
+    }
+  };
+  _0x4c7f4a(++_0x3d5a5d);
+}(_0x3d5a, 0x1a3));
+
+const _0x4c7f = function (_0x1f8b2a, _0x3d5a5d) {
+  _0x1f8b2a = _0x1f8b2a - 0x0;
+  let _0x4c7f4a = _0x3d5a[_0x1f8b2a];
+  return _0x4c7f4a;
+};
 
 class YouTubeScraper {
   constructor() {
-    this.qualities = {
-      video: {
-        "144p": "1",
-        "240p": "2",
-        "360p": "3",
-        "480p": "4",
-        "720p": "5",
-        "1080p": "6",
+    this[_0x4c7f('0x1e')] = {
+      [_0x4c7f('0x0')]: {
+        [_0x4c7f('0x1')]: _0x4c7f('0x7'),
+        [_0x4c7f('0x2')]: _0x4c7f('0x8'),
+        [_0x4c7f('0x3')]: _0x4c7f('0x9'),
+        [_0x4c7f('0x4')]: _0x4c7f('0xa'),
+        [_0x4c7f('0x5')]: _0x4c7f('0xb'),
+        [_0x4c7f('0x6')]: _0x4c7f('0xc'),
       },
     };
   }
 
-  async fetchSaveTube(url, serverId, data = {}) {
-    const headers = {
-      accept: "*/*",
-      authority: `cdn${serverId}.savetube.su`,
-      referer: "https://ytshorts.savetube.me/",
-      origin: "https://ytshorts.savetube.me/",
-      "user-agent": "Postify/1.0.0",
-      "Content-Type": "application/json",
+  async [_0x4c7f('0xd')](_0x5e8f2a, _0x1f8b2a, _0x3d5a5d = {}) {
+    const _0x4c7f4a = {
+      [_0x4c7f('0x21')]: _0x4c7f('0x22'),
+      [_0x4c7f('0x23')]: _0x4c7f('0x24') + _0x1f8b2a + _0x4c7f('0x25'),
+      [_0x4c7f('0x26')]: _0x4c7f('0x27'),
+      [_0x4c7f('0x28')]: _0x4c7f('0x27'),
+      [_0x4c7f('0x29')]: _0x4c7f('0x2a'),
+      [_0x4c7f('0x2b')]: _0x4c7f('0x2c'),
     };
 
     try {
-      const response = await axios.post(url, data, { headers });
-      return response.data;
-    } catch (error) {
-      throw new Error(error.message);
+      const _0x5a4d8f = await axios[_0x4c7f('0xe')](_0x5e8f2a, _0x3d5a5d, { [_0x4c7f('0x21')]: _0x4c7f4a });
+      return _0x5a4d8f[_0x4c7f('0xf')];
+    } catch (_0x1f8b2a) {
+      throw new Error(_0x1f8b2a[_0x4c7f('0x10')]);
     }
   }
 
-  async downloadVideo(videoUrl, quality = "720p") {
-    const serverId = Math.floor(Math.random() * 11) + 51;
-    const serverUrl = `cdn${serverId}.savetube.su`;
+  async [_0x4c7f('0x1f')](_0x5e8f2a, _0x1f8b2a = _0x4c7f('0x5')) {
+    const _0x3d5a5d = Math.floor(Math.random() * 0xb) + 0x33;
+    const _0x4c7f4a = _0x4c7f('0x24') + _0x3d5a5d + _0x4c7f('0x25');
 
-    const qualityMap = this.qualities.video;
+    const _0x5a4d8f = this[_0x4c7f('0x1e')][_0x4c7f('0x0')];
 
     try {
-      const videoInfo = await this.fetchSaveTube(`https://${serverUrl}/info`, serverId, { url: videoUrl });
+      const _0x1f8b2a = await this[_0x4c7f('0xd')](_0x4c7f('0x2d') + _0x4c7f4a + _0x4c7f('0x2e'), _0x3d5a5d, { [_0x4c7f('0x20')]: _0x5e8f2a });
 
-      if (!videoInfo || !videoInfo.data) {
-        throw new Error("Gagal mendapatkan informasi video.");
+      if (!_0x1f8b2a || !_0x1f8b2a[_0x4c7f('0xf')]) {
+        throw new Error(_0x4c7f('0x11'));
       }
 
-      const downloadData = await this.fetchSaveTube(`https://${serverUrl}/download`, serverId, {
-        downloadType: "video",
-        quality: qualityMap[quality] || qualityMap["720p"],
-        key: videoInfo.data.key,
+      const _0x3d5a5d = await this[_0x4c7f('0xd')](_0x4c7f('0x2d') + _0x4c7f4a + _0x4c7f('0x2f'), _0x3d5a5d, {
+        [_0x4c7f('0x30')]: _0x4c7f('0x31'),
+        [_0x4c7f('0x32')]: _0x5a4d8f[_0x1f8b2a] || _0x5a4d8f[_0x4c7f('0x5')],
+        [_0x4c7f('0x33')]: _0x1f8b2a[_0x4c7f('0xf')][_0x4c7f('0x33')],
       });
 
-      if (!downloadData || !downloadData.data) {
-        throw new Error("Gagal mendapatkan tautan unduhan.");
+      if (!_0x3d5a5d || !_0x3d5a5d[_0x4c7f('0xf')]) {
+        throw new Error(_0x4c7f('0x12'));
       }
 
       return {
-        success: true,
-        title: videoInfo.data.title,
-        duration: videoInfo.data.durationLabel,
-        thumbnail: videoInfo.data.thumbnail,
-        downloadUrl: downloadData.data.downloadUrl,
-        quality,
-        type: "video",
+        [_0x4c7f('0x13')]: !![],
+        [_0x4c7f('0x14')]: _0x1f8b2a[_0x4c7f('0xf')][_0x4c7f('0x14')],
+        [_0x4c7f('0x15')]: _0x1f8b2a[_0x4c7f('0xf')][_0x4c7f('0x15')],
+        [_0x4c7f('0x16')]: _0x1f8b2a[_0x4c7f('0xf')][_0x4c7f('0x16')],
+        [_0x4c7f('0x17')]: _0x3d5a5d[_0x4c7f('0xf')][_0x4c7f('0x17')],
+        [_0x4c7f('0x18')]: _0x1f8b2a,
+        [_0x4c7f('0x19')]: _0x4c7f('0x31'),
       };
-    } catch (error) {
-      throw new Error("Download gagal: " + error.message);
+    } catch (_0x5e8f2a) {
+      throw new Error(_0x4c7f('0x1a') + _0x5e8f2a[_0x4c7f('0x10')]);
     }
   }
 }
 
-export async function ytmp4DL(url, quality = "720p") {
-  if (!url) throw new Error("URL is required.");
+export async function ytmp4DL(_0x5e8f2a, _0x1f8b2a = _0x4c7f('0x5')) {
+  if (!_0x5e8f2a) throw new Error(_0x4c7f('0x1b'));
 
-  const scraper = new YouTubeScraper();
+  const _0x3d5a5d = new YouTubeScraper();
 
   try {
-    const result = await scraper.downloadVideo(url, quality);
+    const _0x4c7f4a = await _0x3d5a5d[_0x4c7f('0x1f')](_0x5e8f2a, _0x1f8b2a);
 
-    if (!result.success) {
-      throw new Error(result.message || "Gagal mendapatkan video.");
+    if (!_0x4c7f4a[_0x4c7f('0x13')]) {
+      throw new Error(_0x4c7f4a[_0x4c7f('0x10')] || _0x4c7f('0x1c'));
     }
 
-    return result;
-  } catch (error) {
-    throw new Error(error.message);
+    return _0x4c7f4a;
+  } catch (_0x5e8f2a) {
+    throw new Error(_0x5e8f2a[_0x4c7f('0x10')]);
   }
 }
