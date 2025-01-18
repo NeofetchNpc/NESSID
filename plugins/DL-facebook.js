@@ -6,7 +6,7 @@ export async function facebookDL(url) {
   }
 
   try {
-    const { data } = await axios.get('https://ins.neastooid.xyz/api/downloader/fbdl', {
+    const { data } = await axios.get('https://api.neastooid.xyz/api/downloader/fb', {
       params: { url },
     });
 
