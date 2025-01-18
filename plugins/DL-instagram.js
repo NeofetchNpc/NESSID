@@ -6,7 +6,7 @@ export async function InstagramDL(url) {
   }
 
   try {
-    const { data } = await axios.get('https://ins.neastooid.xyz/api/downloader/igdl', {
+    const { data } = await axios.get('https://api.neastooid.xyz/api/downloader/ig', {
       params: { url },
     });
 
