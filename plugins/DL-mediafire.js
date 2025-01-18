@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function mediafireDL(url) {
+export async function mefireDl(url) {
   if (!url) {
     throw new Error('URL is required.');
   }
