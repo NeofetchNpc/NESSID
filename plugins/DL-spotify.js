@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function SpotifyDL(url) {
+export async function SpotifyDl(url) {
   if (!url) {
     throw new Error('URL is required.');
   }
