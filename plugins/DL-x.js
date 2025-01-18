@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function twitterDL(url) {
+export async function xDl(url) {
   if (!url) throw new Error('URL is required.');
 
   try {
