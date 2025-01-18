@@ -5,7 +5,7 @@ import { ttDl } from './plugins/DL-tiktok.js';
 import { xDl } from './plugins/DL-x.js';
 import { ytmp3Dl } from './plugins/DL-ytmp3.js';
 import { ytmp4Dl } from './plugins/DL-ytmp4.js';
-import { SpotifyDL } from './plugins/DL-spotify.js';
+import { SpotifyDl } from './plugins/DL-spotify.js';
 import { SFWcosplay } from './plugins/ANI-cosplay.js';
 import { SFWlolicon } from './plugins/ANI-loli.js';
 import { SFWaifuv1 } from './plugins/ANI-waifuv1.js';
@@ -19,7 +19,7 @@ const nessid = {
   xDl,
   ytmp3Dl,
   ytmp4Dl,
-  SpotifyDL,
+  SpotifyDl,
   SFWaifuv1,
   SFWaifuv2,
   SFWlolicon,
