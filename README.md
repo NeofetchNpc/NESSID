@@ -18,8 +18,7 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Blue Archive Logo
-+ FIX YTMP DOWNLOADER
++ Fix Error Fiture
 ```
 
 ---------
