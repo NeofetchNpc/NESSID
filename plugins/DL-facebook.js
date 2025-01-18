@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function facebookDL(url) {
+export async function fbDl(url) {
   if (!url) {
     throw new Error('URL is required.');
   }
