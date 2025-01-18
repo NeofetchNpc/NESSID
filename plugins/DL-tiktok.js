@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function TiktokDL(url) {
+export async function ttDl(url) {
   if (!url) throw new Error('URL is required.');
 
   try {
