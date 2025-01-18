@@ -1,6 +1,6 @@
 {
   "name": "neastooapi",
-  "version": "1.1.03",
+  "version": "1.1.04",
   "description": "Scraper Downloader Module",
   "main": "index.js",
   "author": "NeofetchNpc",
@@ -43,7 +43,6 @@
   },
   "homepage": "https://saweria.co/YUSUP909",
   "dependencies": {
-    "axios": "1.7.4",
-    "node-fetch": "3.3.2"
+    "axios": "1.7.4"
   }
 }
