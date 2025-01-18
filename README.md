@@ -19,6 +19,7 @@
 // ( WIP ) Work In Progres
 // Stabile Version
 + Fix Error Fiture
++ Function Tidying 
 ```
 
 ---------
