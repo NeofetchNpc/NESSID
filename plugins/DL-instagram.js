@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function InstagramDL(url) {
+export async function igDl(url) {
   if (!url) {
     throw new Error('URL is required.');
   }
