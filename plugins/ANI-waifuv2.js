@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function SFWwaifuv2() {
+export async function SFWaifuv2() {
   try {
     const { data } = await axios.get('https://api.neastooid.xyz/api/anime/waifuv2');
     return data;
