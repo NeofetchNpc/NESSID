@@ -7,5 +7,5 @@ nessid.SimiAi('haloo')
 
 import nessid from 'neastooapi';
 
-nessid.baLogo('ini text nya')
+nessid.ytmp4DL('https://youtu.be/SDFIvvHzBeQ?si=5d6IuqoId-agyitP', '720p')
   .then(result => console.log(result));
