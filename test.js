@@ -1,6 +1,4 @@
-/*
 import nessid from './index.js';
 
-nessid.InstagramDL('https://www.instagram.com/reel/DEYwFTASOHw/?igsh=MXNhazQxNjkzeGgzcA==')
+nessid.PinSearch('tohka date a live')
   .then(result => console.log(result));
-*/
