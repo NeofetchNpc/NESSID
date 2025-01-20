@@ -20,7 +20,7 @@
 // Stabile Version
 + Fix Error Fiture
 + Function Tidying
-+ Adding Something 
++ Adding Pin And Wallpaper
 ```
 
 ---------
