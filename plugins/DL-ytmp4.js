@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function ytmp4DL(url, quality = 360) {
+export async function YTMP4Dl(url, quality = 360) {
   if (!url) throw new Error('URL is required.');
 
   try {
