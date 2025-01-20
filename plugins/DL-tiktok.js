@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function ttDl(url) {
+export async function TTDl(url) {
   if (!url) throw new Error('URL is required.');
 
   try {
