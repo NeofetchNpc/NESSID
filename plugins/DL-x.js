@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function xDl(url) {
+export async function XDl(url) {
   if (!url) throw new Error('URL is required.');
 
   try {
