@@ -11,6 +11,7 @@ import { SFWlolicon } from './plugins/ANI-loli.js';
 import { SFWaifuv1 } from './plugins/ANI-waifuv1.js';
 import { SFWaifuv2 } from './plugins/ANI-waifuv2.js';
 import { PinSearch } from './plugins/ANI-pin.js';
+import { ANIwallpaper } from './plugins/ANI-wallpaper.js';
 
 const nessid = {
   FBDl,
@@ -26,6 +27,7 @@ const nessid = {
   SFWlolicon,
   SFWcosplay,
   PinSearch,
+  ANIwallpaper,
 };
 
 export default nessid;
