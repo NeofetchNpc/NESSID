@@ -1,4 +1,4 @@
 import nessid from './index.js';
 
-nessid.PinSearch('tohka date a live')
+nessid.ANIwallpaper('nakano miku')
   .then(result => console.log(result));
