@@ -18,9 +18,7 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Fix Error Fiture
-+ Function Tidying
-+ Adding Pin And Wallpaper
++ Fix Tiktok Downloader
 ```
 
 ---------
