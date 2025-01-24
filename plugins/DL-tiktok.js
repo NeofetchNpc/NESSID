@@ -5,11 +5,11 @@ export async function TTDl(url) {
 
   try {
     const { data } = await axios.get('https://api.neastooid.xyz/api/downloader/tiktok', {
-      params: { q: url },
+      params: { url }, 
     });
 
     return data;
   } catch (error) {
-    throw new Error(error.message);
+    throw new Error(error.response?.data?.message || error.message);
   }
 }
