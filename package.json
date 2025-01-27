@@ -35,7 +35,7 @@
     "blue-archive",
     "chatgpt",
     "blackbox",
-    "bing",
+    "bing"
   ],
   "author": "NeofetchNpc",
   "license": "ISC",
@@ -45,6 +45,6 @@
   },
   "homepage": "https://saweria.co/YUSUP909",
   "dependencies": {
-    "axios": "1.7.4"
+    "axios": "^1.7.4"
   }
 }
