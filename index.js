@@ -13,6 +13,8 @@ import { SFWaifuv2 } from './plugins/ANI-waifuv2.js';
 import { PinSearch } from './plugins/ANI-pin.js';
 import { ANIwallpaper } from './plugins/ANI-wallpaper.js';
 import { GptAi } from './plugins/AI-gpt4o.js';
+import { BingAi } from './plugins/AI-bing.js';
+import { BlackboxAi } from './plugins/AI-blackbox.js';
 
 const nessid = {
   FBDl,
@@ -30,6 +32,8 @@ const nessid = {
   PinSearch,
   ANIwallpaper,
   GptAi,
+  BingAi,
+  BlackboxAi,
 };
 
 export default nessid;
