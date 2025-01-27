@@ -12,6 +12,7 @@ import { SFWaifuv1 } from './plugins/ANI-waifuv1.js';
 import { SFWaifuv2 } from './plugins/ANI-waifuv2.js';
 import { PinSearch } from './plugins/ANI-pin.js';
 import { ANIwallpaper } from './plugins/ANI-wallpaper.js';
+import { GptAi } from './plugins/AI-gpt4o.js';
 
 const nessid = {
   FBDl,
@@ -28,6 +29,7 @@ const nessid = {
   SFWcosplay,
   PinSearch,
   ANIwallpaper,
+  GptAi,
 };
 
 export default nessid;
