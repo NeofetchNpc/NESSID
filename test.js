@@ -1,5 +1,4 @@
-/*import nessid from './index.js';
+import nessid from './index.js';
 
-nessid.ANIwallpaper('nakano miku')
+nessid.GptAi('halo')
   .then(result => console.log(result));
-*/
