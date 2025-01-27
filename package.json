@@ -1,6 +1,6 @@
 {
   "name": "neastooapi",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Scraper Module",
   "main": "index.js",
   "type": "module",
