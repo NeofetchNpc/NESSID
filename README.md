@@ -18,7 +18,8 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Fix Tiktok Downloader
++ Fix All Downloaders
++ Add Ai Fiture
 ```
 
 ---------
