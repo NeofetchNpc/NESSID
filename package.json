@@ -32,7 +32,10 @@
     "Video downloader",
     "whatsapp-api",
     "otakudesu-api",
-    "blue-archive"
+    "blue-archive",
+    "chatgpt",
+    "blackbox",
+    "bing",
   ],
   "author": "NeofetchNpc",
   "license": "ISC",
