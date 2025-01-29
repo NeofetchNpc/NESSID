@@ -1,7 +1,7 @@
 {
   "name": "neastooapi",
   "version": "1.1.9",
-  "description": "Scraper Module",
+  "description": "Scraper Api Module",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -30,12 +30,11 @@
     "Social media downloader",
     "Audio downloader",
     "Video downloader",
-    "whatsapp-api",
-    "otakudesu-api",
-    "blue-archive",
     "chatgpt",
     "blackbox",
-    "bing"
+    "bing",
+    "Scraper API",
+    "Social API"
   ],
   "author": "NeofetchNpc",
   "license": "ISC",
