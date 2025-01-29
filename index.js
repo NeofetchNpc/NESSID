@@ -1,3 +1,4 @@
+import { SoundCloudDl } from './plugins/DL-soundcloud.js';
 import { FBDl } from './plugins/DL-facebook.js';
 import { IGDl } from './plugins/DL-instagram.js';
 import { MediafireDl } from './plugins/DL-mediafire.js';
@@ -17,6 +18,7 @@ import { BingAi } from './plugins/AI-bing.js';
 import { BlackboxAi } from './plugins/AI-blackbox.js';
 
 const nessid = {
+  SoundCloudDl,
   FBDl,
   IGDl,
   MediafireDl,
