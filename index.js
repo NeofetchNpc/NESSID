@@ -16,6 +16,7 @@ import { ANIwallpaper } from './plugins/ANI-wallpaper.js';
 import { GptAi } from './plugins/AI-gpt4o.js';
 import { BingAi } from './plugins/AI-bing.js';
 import { BlackboxAi } from './plugins/AI-blackbox.js';
+import { AiInsfxV2 } from './plugins/AI-insfxv2.js';
 
 const nessid = {
   SoundCloudDl,
@@ -36,6 +37,7 @@ const nessid = {
   GptAi,
   BingAi,
   BlackboxAi,
+  AiInsfxV2,
 };
 
 export default nessid;
