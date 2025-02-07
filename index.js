@@ -41,3 +41,5 @@ const nessid = {
 };
 
 export default nessid;
+export const domain = 'http://node.neastooid.xyz:2002';
+export const domaincp = 'http://node.neastooid.xyz:2003';

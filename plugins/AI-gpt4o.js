@@ -1,8 +1,9 @@
 import axios from 'axios';
+import { domain } from '../index.js';
 
 export async function GptAi(query = 'Hi') {
   try {
-    const { data } = await axios.get('https://api.neastooid.xyz/api/ai/chatgpt', {
+    const { data } = await axios.get(`${domain}/api/ai/chatgpt`, {
       params: { q: query },
     });
 

@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { domain } from '../index.js';
 
 export async function MediafireDl(url) {
   if (!url) {
@@ -6,7 +7,7 @@ export async function MediafireDl(url) {
   }
 
   try {
-    const { data } = await axios.get('https://api.neastooid.xyz/api/downloader/mediafire', {
+    const { data } = await axios.get(`${domain}/api/downloader/mediafire`, {
       params: { url },
     });
 

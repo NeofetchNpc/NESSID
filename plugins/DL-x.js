@@ -1,10 +1,11 @@
 import axios from 'axios';
+import { domain } from '../index.js';
 
 export async function XDl(url) {
   if (!url) throw new Error('URL is required.');
 
   try {
-    const { data } = await axios.get('https://api.neastooid.xyz/api/downloader/x', {
+    const { data } = await axios.get(`${domain}/api/downloader/x`, {
       params: { url },
     });
 

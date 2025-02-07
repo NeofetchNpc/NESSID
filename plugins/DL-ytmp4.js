@@ -4,7 +4,7 @@ export async function YTMP4Dl(url, quality = 360) {
   if (!url) throw new Error('URL is required.');
 
   try {
-    const { data } = await axios.get('https://api.neastooid.xyz/api/downloader/ytmp4', {
+    const { data } = await axios.get(`${domain}/api/downloader/ytmp4`, {
       params: { 
         url, 
         q: quality,

@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { domain } from '../index.js';
 
 export async function FBDl(url) {
   if (!url) {
@@ -6,7 +7,7 @@ export async function FBDl(url) {
   }
 
   try {
-    const { data } = await axios.get('https://api.neastooid.xyz/api/downloader/fb', {
+    const { data } = await axios.get(`${domain}/api/downloader/fb`, {
       params: { url },
     });
 
