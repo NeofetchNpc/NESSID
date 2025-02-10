@@ -1,22 +1,18 @@
 import axios from 'axios';
 import { domain } from '../index.js';
 
-export async function SpotifyDl(url) {
+export async function youtubeAIO(url) {
   if (!url) {
     throw new Error('URL is required.');
   }
 
   try {
-    const { data } = await axios.get(`${domain}/api/spotify`, {
+    const { data } = await axios.get(`${domain}/api/youtube`, {
       params: { url },
     });
 
-    if (!data.success) {
-      throw new Error(data.message);
-    }
-
     return data;
   } catch (error) {
-    throw new Error(error.message);
+    throw new Error(`Failed to fetch: ${error.message}`);
   }
 }

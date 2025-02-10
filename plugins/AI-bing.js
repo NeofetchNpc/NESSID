@@ -3,7 +3,7 @@ import { domain } from '../index.js';
 
 export async function BingAi(query = 'Hi') {
   try {
-    const { data } = await axios.get(`${domain}/api/ai/bing`, {
+    const { data } = await axios.get(`${domain}/api/bing`, {
       params: { q: query },
     });
 

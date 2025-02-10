@@ -7,7 +7,7 @@ export async function SoundCloudDl(url) {
   }
 
   try {
-    const { data } = await axios.get(`${domain}/api/downloader/soundcloud`, {
+    const { data } = await axios.get(`${domain}/api/soundcloud`, {
       params: { url },
     });
 

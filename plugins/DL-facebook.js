@@ -7,7 +7,7 @@ export async function FBDl(url) {
   }
 
   try {
-    const { data } = await axios.get(`${domain}/api/downloader/fb`, {
+    const { data } = await axios.get(`${domain}/api/fbdown`, {
       params: { url },
     });
 

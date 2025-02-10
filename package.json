@@ -1,7 +1,7 @@
 {
   "name": "neastooapi",
-  "version": "2.0.1",
-  "description": "Scraper Api Module",
+  "version": "2.0.2",
+  "description": "Scraper All In One",
   "main": "index.js",
   "type": "module",
   "scripts": {

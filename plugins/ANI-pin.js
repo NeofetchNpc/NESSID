@@ -3,7 +3,7 @@ import { domain } from '../index.js';
 
 export async function PinSearch(query = 'waifu') {
   try {
-    const { data } = await axios.get(`${domain}/api/anime/pin`, {
+    const { data } = await axios.get(`${domain}/api/pin`, {
       params: { q: query },
     });
 

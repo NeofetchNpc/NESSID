@@ -7,7 +7,7 @@ export async function MediafireDl(url) {
   }
 
   try {
-    const { data } = await axios.get(`${domain}/api/downloader/mediafire`, {
+    const { data } = await axios.get(`${domain}/api/mediafire`, {
       params: { url },
     });
 
