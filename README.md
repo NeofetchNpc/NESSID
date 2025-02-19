@@ -19,7 +19,8 @@
 // ( WIP ) Work In Progres
 // Stabile Version
 + Fix All Downloaders
-+ Add Ai Fiture
++ Add OTT Anime ( Sub Id Only )
++ Fix Cosplayer Api
 ```
 
 ---------
