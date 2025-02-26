@@ -4,8 +4,7 @@ nessid.GptAi('halo')
   .then(result => console.log(result));
 */
 
-/*import nessid from './index.js';
+import nessid from './index.js';
 
-nessid.OTTnew()
+nessid.youtubeAIO()
   .then(result => console.log(result));
-  */
