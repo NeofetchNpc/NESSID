@@ -6,5 +6,9 @@ nessid.GptAi('halo')
 
 import nessid from './index.js';
 
-nessid.youtubeAIO()
-  .then(result => console.log(result));
+const url = 'https://youtube.com/watch?v=EXAMPLE_ID'; // url yt
+const type = 'video'; // audio or video
+
+nessid.youtubeAIO(url, type)
+  .then(result => console.log(result))
+  .catch(error => console.error('Error:', error.message));
