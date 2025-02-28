@@ -11,12 +11,10 @@ export async function youtubeAIO(url, type = 'audio') {
   }
 
   try {
-    const endpoint = `/api/youtube/${type}`;
-    const response = await axios.get(`${domain}${endpoint}`, {
-      params: { url },
-    });
+    const endpoint = `/api/youtube/${type}?url=${encodeURIComponent(url)}`;
+    const response = await axios.get(`${domain}${endpoint}`);
 
-    return response.data; // Langsung meneruskan JSON dari API
+    return response.data; // Meneruskan JSON asli dari API
   } catch (error) {
     return error.response?.data || { error: `Failed to fetch: ${error.message}` };
   }
