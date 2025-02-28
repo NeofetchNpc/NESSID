@@ -19,6 +19,7 @@
 // ( WIP ) Work In Progres
 // Stabile Version
 + Fix YTDL
++ Fix Waifu
 ```
 
 ---------
