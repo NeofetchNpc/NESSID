@@ -12,12 +12,12 @@ export async function youtubeAIO(url, type = 'audio') {
 
   try {
     const endpoint = `/api/youtube/${type}`;
-    const { data } = await axios.get(`${domain}${endpoint}`, {
+    const response = await axios.get(`${domain}${endpoint}`, {
       params: { url },
     });
 
-    return data;
+    return response.data; // Langsung meneruskan JSON dari API
   } catch (error) {
-    throw new Error(`Failed to fetch: ${error.message}`);
+    return error.response?.data || { error: `Failed to fetch: ${error.message}` };
   }
 }
