@@ -3,7 +3,7 @@ import { domain } from '../index.js';
 
 export async function SFWaifu(tag = 'waifu') {
   try {
-    const { data } = await axios.get(`${domain}/api/anime/waifuv1`, {
+    const { data } = await axios.get(`${domain}/api/waifuv1`, {
       params: { included_tags: tag },
     });
     return data;
