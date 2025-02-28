@@ -6,13 +6,6 @@ nessid.GptAi('halo')
 
 import nessid from './index.js';
 
-const { youtubeAIO } = nessid; // Mengimpor youtubeAIO dari nessid
-
-(async () => {
-  try {
-    const result = await youtubeAIO('https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'audio');
-    console.log(result);
-  } catch (error) {
-    console.error(error.message);
-  }
-})();
+nessid.youtubeAIO('https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'audio')
+  .then(console.log)
+  .catch(error => console.error('Error:', error.message));
