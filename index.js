@@ -26,7 +26,6 @@ const nessid = {
   IGDl,
   TTDl,
   XDl,
-  SpotifyDl,
   youtubeAIO,
   SFWaifu,
   SFWlolicon,
