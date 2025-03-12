@@ -5,7 +5,7 @@ export async function XDl(url) {
   if (!url) throw new Error('URL is required.');
 
   try {
-    const { data } = await axios.get(`${domain}/api/twitter`, {
+    const { data } = await axios.get(`${domain}/api/downloader/twitter`, {
       params: { url },
     });
 
