@@ -5,7 +5,7 @@ export async function OTTinfo(q) {
   if (!q) throw new Error('Query is required.');
 
   try {
-    const { data } = await axios.get(`${domain}/api/info-anime`, {
+    const { data } = await axios.get(`${domain}/api/otaku/info-anime`, {
       params: { q: q }, 
     });
 
