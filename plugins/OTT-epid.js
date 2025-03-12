@@ -5,7 +5,7 @@ export async function OTTepid(id) {
   if (!id) throw new Error('ID is required.');
 
   try {
-    const { data } = await axios.get(`${domain}/api/ep`, {
+    const { data } = await axios.get(`${domain}/api/otaku/ep`, {
       params: { id: id }, 
     });
 
