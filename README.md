@@ -18,8 +18,8 @@
 ```js
 // ( WIP ) Work In Progres
 // Stabile Version
-+ Fix YTDL
-+ Fix Waifu
++ Fix YTDL & Minor Error
+- Removing Err Viture
 ```
 
 ---------
