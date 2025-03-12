@@ -32,7 +32,7 @@ const nessid = {
   SFWlolicon,
   SFWcosplay,
   PinSearch,
-  ANIwallpaper,
+  ANIwallpaper
 };
 
 export default nessid;
