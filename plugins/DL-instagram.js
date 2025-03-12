@@ -7,7 +7,7 @@ export async function IGDl(url) {
   }
 
   try {
-    const { data } = await axios.get(`${domain}/api/igdl`, {
+    const { data } = await axios.get(`${domain}/api/downloader/igdl`, {
       params: { url },
     });
 
