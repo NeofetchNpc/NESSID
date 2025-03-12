@@ -3,7 +3,7 @@ import { domain } from '../index.js';
 
 export async function GptAi(query = 'Hi') {
   try {
-    const { data } = await axios.get(`${domain}/api/chatgpt`, {
+    const { data } = await axios.get(`${domain}/api/ai/chatgpt`, {
       params: { q: query },
     });
 
