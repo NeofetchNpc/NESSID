@@ -5,7 +5,7 @@ export async function TTDl(url) {
   if (!url) throw new Error('URL is required.');
 
   try {
-    const { data } = await axios.get(`${domain}/api/tiktok`, {
+    const { data } = await axios.get(`${domain}/api/anime/tiktok`, {
       params: { url }, 
     });
 
